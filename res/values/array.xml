@@ -958,4 +958,13 @@
         <item>@null</item>
         <item>@null</item>
     </array>
+    <string-array  name="du_clock_backgrounds_drawable"  translatable="false">
+        <item>appwidget_du_color_clock_dial</item>
+        <item>appwidget_du_black_clock_dial</item>
+        <item>appwidget_du_blue_clock_dial</item>
+        <item>appwidget_du_gray_clock_dial</item>
+        <item>appwidget_du_green_clock_dial</item>
+        <item>appwidget_du_red_clock_dial</item>
+        <item>appwidget_du_yellow_clock_dial</item>
+    </string-array>
 </resources>

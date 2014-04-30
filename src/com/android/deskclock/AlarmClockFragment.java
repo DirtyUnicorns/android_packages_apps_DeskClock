@@ -123,6 +123,7 @@ public class AlarmClockFragment extends DeskClockFragment implements
     private static final String KEY_SELECTED_ALARM = "selectedAlarm";
     private static final DeskClockExtensions sDeskClockExtensions = ExtensionsFactory
                     .getDeskClockExtensions();
+    private static final String KEY_SELECT_SOURCE = "selectedSource";
 
     private static final int REQUEST_CODE_RINGTONE = 1;
     private static final int REQUEST_CODE_EXTERN_AUDIO = 2;
@@ -200,6 +201,7 @@ public class AlarmClockFragment extends DeskClockFragment implements
             selectedAlarms = savedState.getLongArray(KEY_SELECTED_ALARMS);
             previousDayMap = savedState.getBundle(KEY_PREVIOUS_DAY_MAP);
             mSelectedAlarm = savedState.getParcelable(KEY_SELECTED_ALARM);
+            mSelectSource = savedState.getInt(KEY_SELECT_SOURCE);
         }
 
         mExpandInterpolator = new DecelerateInterpolator(EXPAND_DECELERATION);
@@ -345,16 +347,15 @@ public class AlarmClockFragment extends DeskClockFragment implements
     @Override
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
-        if (mAdapter != null) {
-            outState.putLong(KEY_EXPANDED_ID, mAdapter.getExpandedId());
-            outState.putLongArray(KEY_REPEAT_CHECKED_IDS, mAdapter.getRepeatArray());
-            outState.putLongArray(KEY_SELECTED_ALARMS, mAdapter.getSelectedAlarmsArray());
-            outState.putBundle(KEY_RINGTONE_TITLE_CACHE, mRingtoneTitleCache);
-            outState.putParcelable(KEY_DELETED_ALARM, mDeletedAlarm);
-            outState.putBoolean(KEY_UNDO_SHOWING, mUndoShowing);
-            outState.putBundle(KEY_PREVIOUS_DAY_MAP, mAdapter.getPreviousDaysOfWeekMap());
-            outState.putParcelable(KEY_SELECTED_ALARM, mSelectedAlarm);
-        }
+        outState.putLong(KEY_EXPANDED_ID, mAdapter.getExpandedId());
+        outState.putLongArray(KEY_REPEAT_CHECKED_IDS, mAdapter.getRepeatArray());
+        outState.putLongArray(KEY_SELECTED_ALARMS, mAdapter.getSelectedAlarmsArray());
+        outState.putBundle(KEY_RINGTONE_TITLE_CACHE, mRingtoneTitleCache);
+        outState.putParcelable(KEY_DELETED_ALARM, mDeletedAlarm);
+        outState.putBoolean(KEY_UNDO_SHOWING, mUndoShowing);
+        outState.putBundle(KEY_PREVIOUS_DAY_MAP, mAdapter.getPreviousDaysOfWeekMap());
+        outState.putParcelable(KEY_SELECTED_ALARM, mSelectedAlarm);
+        outState.putInt(KEY_SELECT_SOURCE, mSelectSource);
     }
 
     @Override

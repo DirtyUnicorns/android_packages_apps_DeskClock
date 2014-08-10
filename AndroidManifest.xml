@@ -167,6 +167,23 @@
             </intent-filter>
         </activity>
 
+        <receiver android:name="com.android.alarmclock.AnalogDUneonAppWidgetProvider" android:label="@string/analog_du_neon_gadget"
+          android:icon="@mipmap/ic_widget_analog_du_neon_clock">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.appwidget.action.APPWIDGET_DELETED" />
+                <action android:name="android.appwidget.action.APPWIDGET_DISABLED" />
+                <action android:name="android.appwidget.action.APPWIDGET_ENABLED" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/analog_du_neon_appwidget" />
+        </receiver>
+
+        <activity android:name="com.android.alarmclock.AnalogDUneonAppWidgetConfigure">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity>
+
         <receiver android:name="com.android.alarmclock.DigitalAppWidgetProvider" android:label="@string/digital_gadget"
            android:icon="@mipmap/ic_launcher_alarmclock">
             <intent-filter>

@@ -823,6 +823,9 @@
     <!-- Label for DU clock widget -->
     <string name="analog_du_gadget">DU clock</string>
 
+    <!-- Label for DU neon clock widget -->
+    <string name="analog_du_neon_gadget">DU neon clock</string>
+
     <!-- Appears at the top of the DU Clock Picker screen: Tell user to select a clock Dial to display -->
     <string name="clock_dial_instructions">Choose a clock dial</string>
 

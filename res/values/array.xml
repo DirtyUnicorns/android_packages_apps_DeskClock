@@ -967,4 +967,17 @@
         <item>appwidget_du_red_clock_dial</item>
         <item>appwidget_du_yellow_clock_dial</item>
     </string-array>
+
+    <string-array  name="du_neon_clock_backgrounds_drawable"  translatable="false">
+        <item>appwidget_du_neon_green_clock_dial</item>
+        <item>appwidget_du_neon_black_clock_dial</item>
+        <item>appwidget_du_neon_blue_clock_dial</item>
+        <item>appwidget_du_neon_cyan_clock_dial</item>
+        <item>appwidget_du_neon_orange_clock_dial</item>
+        <item>appwidget_du_neon_pink_clock_dial</item>
+        <item>appwidget_du_neon_purple_clock_dial</item>
+        <item>appwidget_du_neon_red_clock_dial</item>
+        <item>appwidget_du_neon_white_clock_dial</item>
+        <item>appwidget_du_neon_yellow_clock_dial</item>
+    </string-array>
 </resources>

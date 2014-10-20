@@ -114,7 +114,7 @@ public class AlarmActivity extends Activity implements View.OnClickListener, Vie
                     }
                     break;
                 case AlarmService.ALARM_DONE_ACTION:
-                    // DONE MUST never be missed else all the listeners will not be 
+                    // DONE MUST never be missed else all the listeners will not be
                     // removed correctly
                     finish();
                     break;
@@ -441,8 +441,15 @@ public class AlarmActivity extends Activity implements View.OnClickListener, Vie
 
         final int alertColor = getResources().getColor(R.color.hot_blue);
         setAnimatedFractions(1.0f /* snoozeFraction */, 0.0f /* dismissFraction */);
-        getAlertAnimator(mSnoozeButton, R.string.alarm_alert_snoozed_text,
-                AlarmStateManager.getSnoozedMinutes(this), alertColor, alertColor).start();
+
+        final int snoozeMinutes = AlarmStateManager.getSnoozedMinutes(this);
+        final String infoText = getResources().getQuantityString(
+                R.plurals.alarm_alert_snooze_duration, snoozeMinutes, snoozeMinutes);
+        final String accessibilityText = getResources().getQuantityString(
+                R.plurals.alarm_alert_snooze_set, snoozeMinutes, snoozeMinutes);
+
+        getAlertAnimator(mSnoozeButton, R.string.alarm_alert_snoozed_text, infoText,
+                accessibilityText, alertColor, alertColor).start();
         AlarmStateManager.setSnoozeState(this, mAlarmInstance, false /* showToast */);
     }
 
@@ -453,7 +460,8 @@ public class AlarmActivity extends Activity implements View.OnClickListener, Vie
         setAnimatedFractions(0.0f /* snoozeFraction */, 1.0f /* dismissFraction */);
         final int revealColor = getResources().getColor(R.color.white);
         getAlertAnimator(mDismissButton, R.string.alarm_alert_off_text, null /* infoText */,
-                revealColor, mCurrentHourColor).start();
+                getString(R.string.alarm_alert_off_text) /* accessibilityText */,
+                Color.WHITE, mCurrentHourColor).start();
         AlarmStateManager.setDismissState(this, mAlarmInstance);
     }
 
@@ -498,7 +506,8 @@ public class AlarmActivity extends Activity implements View.OnClickListener, Vie
     }
 
     private Animator getAlertAnimator(final View source, final int titleResId,
-            final String infoText, final int revealColor, final int backgroundColor) {
+            final String infoText, final String accessibilityText, final int revealColor,
+            final int backgroundColor) {
         final ViewGroupOverlay overlay = mContainerView.getOverlay();
 
         // Create a transient view for performing the reveal animation.
@@ -539,10 +548,12 @@ public class AlarmActivity extends Activity implements View.OnClickListener, Vie
             public void onAnimationEnd(Animator animator) {
                 mAlertView.setVisibility(View.VISIBLE);
                 mAlertTitleView.setText(titleResId);
+
                 if (infoText != null) {
                     mAlertInfoView.setText(infoText);
                     mAlertInfoView.setVisibility(View.VISIBLE);
                 }
+                mAlertView.announceForAccessibility(accessibilityText);
                 mContentView.setVisibility(View.GONE);
                 mContainerView.setBackgroundColor(backgroundColor);
             }

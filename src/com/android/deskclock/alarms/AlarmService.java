@@ -178,6 +178,7 @@ public class AlarmService extends Service {
                 return Service.START_NOT_STICKY;
             } else if (mCurrentAlarm != null && mCurrentAlarm.mId == instanceId) {
                 LogUtils.e("Alarm already started for instance: " + instanceId);
+                AlarmNotifications.showAlarmNotification(this, mCurrentAlarm);
                 return Service.START_NOT_STICKY;
             }
             startAlarm(instance);

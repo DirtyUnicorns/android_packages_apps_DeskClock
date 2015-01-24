@@ -47,6 +47,7 @@ import android.text.format.Time;
 import android.text.style.AbsoluteSizeSpan;
 import android.text.style.StyleSpan;
 import android.text.style.TypefaceSpan;
+import android.util.TypedValue;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.animation.AccelerateInterpolator;
@@ -248,6 +249,13 @@ public class Utils {
         Intent timerIntent = new Intent();
         timerIntent.setAction(Timers.NOTIF_TIMES_UP_CANCEL);
         context.sendBroadcast(timerIntent);
+    }
+
+    public static void setTimeTextSize(TextClock textClock, int res_id) {
+        if (!DateFormat.is24HourFormat(textClock.getContext())) {
+            textClock.setTextSize(TypedValue.COMPLEX_UNIT_PX,
+                    textClock.getContext().getResources().getDimensionPixelSize(res_id));
+        }
     }
 
     /** Runnable for use with screensaver and dream, to move the clock every minute.

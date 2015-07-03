@@ -81,6 +81,9 @@ public class TimerListItem extends LinearLayout {
     public void pause() {
         mResetAddButton.setImageResource(R.drawable.ic_reset_black);
         mResetAddButton.setContentDescription(getResources().getString(R.string.timer_reset));
+        // the plus one buttone maybe disable in TimerFragment, if the timer can't add
+        // so we need set this button to enable to avoid the reset button can't be click.
+        mResetAddButton.setEnabled(true);
         mCircleView.pauseIntervalAnimation();
         mTimerText.setTimeStrTextColor(false, true);
         mTimerText.showTime(true);

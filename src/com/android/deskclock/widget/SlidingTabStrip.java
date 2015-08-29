@@ -40,7 +40,7 @@ class SlidingTabStrip extends LinearLayout {
     private final int mSelectedIndicatorThickness;
     private final Paint mSelectedIndicatorPaint;
 
-    private Paint mDividerPaint;
+    private final Paint mDividerPaint;
     private final float mDividerHeight;
 
     private int mSelectedPosition;
@@ -84,11 +84,8 @@ class SlidingTabStrip extends LinearLayout {
         mSelectedIndicatorPaint = new Paint();
 
         mDividerHeight = DEFAULT_DIVIDER_HEIGHT;
-
-        if (DEFAULT_DIVIDER_THICKNESS_DIPS != 0) {
-            mDividerPaint = new Paint();
-            mDividerPaint.setStrokeWidth((int) (DEFAULT_DIVIDER_THICKNESS_DIPS * density));
-        }
+        mDividerPaint = new Paint();
+        mDividerPaint.setStrokeWidth((int) (DEFAULT_DIVIDER_THICKNESS_DIPS * density));
     }
 
     int getTextColor() {
@@ -157,15 +154,13 @@ class SlidingTabStrip extends LinearLayout {
                     height, mSelectedIndicatorPaint);
         }
 
-        if (mDividerPaint != null) {
-            // Vertical separators between the titles
-            int separatorTop = (height - dividerHeightPx) / 2;
-            for (int i = 0; i < childCount - 1; i++) {
-                View child = getChildAt(i);
-                mDividerPaint.setColor(tabColorizer.getDividerColor(i));
-                canvas.drawLine(child.getRight(), separatorTop, child.getRight(),
-                        separatorTop + dividerHeightPx, mDividerPaint);
-            }
+        // Vertical separators between the titles
+        int separatorTop = (height - dividerHeightPx) / 2;
+        for (int i = 0; i < childCount - 1; i++) {
+            View child = getChildAt(i);
+            mDividerPaint.setColor(tabColorizer.getDividerColor(i));
+            canvas.drawLine(child.getRight(), separatorTop, child.getRight(),
+                    separatorTop + dividerHeightPx, mDividerPaint);
         }
     }
 

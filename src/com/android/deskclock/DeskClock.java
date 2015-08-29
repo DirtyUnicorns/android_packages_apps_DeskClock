@@ -162,6 +162,7 @@ public class DeskClock extends Activity implements LabelDialogFragment.TimerLabe
             // Setting the ViewPager For the SlidingTabsLayout
             mSlidingTabs.setViewPager(mViewPager);
             mSlidingTabs.setOnPageChangeListener(mTabsAdapter);
+            mSlidingTabs.setSelectedIndicatorColors(getResources().getColor(R.color.tab_indicator));
         }
 
         mFab.setOnClickListener(new OnClickListener() {

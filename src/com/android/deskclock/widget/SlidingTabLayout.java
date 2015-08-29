@@ -19,7 +19,6 @@ package com.android.deskclock.widget;
 import android.R;
 import android.content.Context;
 import android.graphics.Typeface;
-import android.graphics.Outline;
 import android.os.Build;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
@@ -28,7 +27,6 @@ import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewOutlineProvider;
 import android.widget.HorizontalScrollView;
 import android.widget.TextView;
 
@@ -82,13 +80,6 @@ public class SlidingTabLayout extends HorizontalScrollView {
 
     private final SlidingTabStrip mTabStrip;
 
-    private static final ViewOutlineProvider TAB_OUTLINE_PROVIDER = new ViewOutlineProvider() {
-        @Override
-        public void getOutline(View view, Outline outline) {
-            outline.setRect(0, 0, view.getWidth(), view.getHeight());
-        }
-    };
-
     public SlidingTabLayout(Context context) {
         this(context, null);
     }
@@ -109,7 +100,6 @@ public class SlidingTabLayout extends HorizontalScrollView {
 
         mTabStrip = new SlidingTabStrip(context);
         addView(mTabStrip, LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT);
-        setOutlineProvider(TAB_OUTLINE_PROVIDER);
     }
 
     /**
@@ -179,17 +169,20 @@ public class SlidingTabLayout extends HorizontalScrollView {
      * Create a default view to be used for tabs. This is called if a custom tab view is not set via
      * {@link #setCustomTabView(int, int)}.
      */
-    protected TextView createDefaultTabView(Context context, int textColor) {
+    protected TextView createDefaultTabView(Context context) {
         TextView textView = new TextView(context);
         textView.setGravity(Gravity.CENTER);
         textView.setTextSize(TypedValue.COMPLEX_UNIT_SP, TAB_VIEW_TEXT_SIZE_SP);
         //textView.setTypeface(Typeface.DEFAULT_BOLD);
-        textView.setTextColor(textColor);
+
+        TypedValue outValue = new TypedValue();
+        context.getTheme().resolveAttribute(R.attr.textColorPrimary, outValue, true);
+        final int themeForegroundColor =  outValue.data;
+        textView.setTextColor(themeForegroundColor);
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
             // If we're running on Honeycomb or newer, then we can use the Theme's
             // selectableItemBackground to ensure that the View has a pressed state
-            TypedValue outValue = new TypedValue();
             getContext().getTheme().resolveAttribute(android.R.attr.selectableItemBackground,
                     outValue, true);
             textView.setBackgroundResource(outValue.resourceId);
@@ -222,7 +215,7 @@ public class SlidingTabLayout extends HorizontalScrollView {
             }
 
             if (tabView == null) {
-                tabView = createDefaultTabView(getContext(), mTabStrip.getTextColor());
+                tabView = createDefaultTabView(getContext());
             }
 
             if (tabTitleView == null && TextView.class.isInstance(tabView)) {

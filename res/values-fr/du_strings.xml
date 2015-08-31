@@ -101,4 +101,6 @@
 
     <!-- Describes the purpose of the button to pause a stopwatch. -->
     <string name="sw_pause_button">Pause</string>
+    <!-- AOSP translation stinks and means nothing -->
+    <string name="sw_share_main">"Mon temps chronométré est <xliff:g id="TIME">%s</xliff:g>"</string>
 </resources>

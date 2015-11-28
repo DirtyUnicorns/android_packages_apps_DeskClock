@@ -16,7 +16,9 @@
 
   You should have received a copy of the GNU General Public License
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
--->
+
+     French translation for Dirty Unicorns
+ -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
       <!-- Utilisation/inspiration : https://crowdin.com/translate/OmniROM/102/enus-fr -->
     <!-- Setting title for showing/hiding the alarm status bar icon -->
@@ -98,6 +100,12 @@
     <string name="cities_delete_city_title">Supprimer la ville</string>
     <string name="cities_delete_city_msg">Voulez-vous supprimer <xliff:g id="city">%s</xliff:g> ?</string>
     <string name="cities_delete_city_failed">Impossible de supprimer la ville</string>
+    <string name="timer_settings">Minuteur</string>
+    <string name="timer_alarm_title">Sonnerie</string>
+    <string name="timer_alarm_custom_title">Sonnerie du minuteur</string>
+    <string name="timer_alarm_custom_summary"></string>
+    <string name="week_start_title">La semaine commence</string>
+    <string name="default_week_start">Langue par défaut</string>
 
     <!-- Describes the purpose of the button to pause a stopwatch. -->
     <string name="sw_pause_button">Pause</string>

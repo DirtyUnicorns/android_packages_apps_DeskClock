@@ -105,7 +105,7 @@
     <string name="timer_alarm_custom_title">Sonnerie du minuteur</string>
     <string name="timer_alarm_custom_summary"></string>
     <string name="week_start_title">La semaine commence</string>
-    <string name="default_week_start">Langue par défaut</string>
+    <string name="default_week_start">Paramètres régionaux</string>
 
     <!-- Describes the purpose of the button to pause a stopwatch. -->
     <string name="sw_pause_button">Pause</string>

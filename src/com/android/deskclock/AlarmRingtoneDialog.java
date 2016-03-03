@@ -108,6 +108,7 @@ public class AlarmRingtoneDialog extends DialogFragment implements
     private int mPreAlarmTime;
     private AudioManager mAudioManager;
     private LinearLayout mMaxVolumeContainer;
+    private Runnable mRunAfter;
 
     public interface AlarmRingtoneDialogListener {
         void onFinishOk(Alarm alarm, boolean preAlarm, boolean alarmMedia);
@@ -344,7 +345,16 @@ public class AlarmRingtoneDialog extends DialogFragment implements
         return view;
     }
 
-    private void launchRingTonePicker(int mediaType) {
+    private void launchRingTonePicker(final int mediaType) {
+        checkStoragePermissions(new Runnable() {
+            @Override
+            public void run() {
+                launchRingTonePickerWithPerms(mediaType);
+            }
+        });
+    }
+
+    private void launchRingTonePickerWithPerms(int mediaType) {
         Uri oldRingtone = Alarm.NO_RINGTONE_URI.equals(mRingtone) ? null : mRingtone;
         final Intent intent = new Intent(RingtoneManager.ACTION_RINGTONE_PICKER);
         intent.putExtra(RingtoneManager.EXTRA_RINGTONE_EXISTING_URI,
@@ -376,12 +386,22 @@ public class AlarmRingtoneDialog extends DialogFragment implements
     }
 
     private void launchFolderPicker() {
+        checkStoragePermissions(new Runnable() {
+            @Override
+            public void run() {
+                launchFolderPickerWithPerm();
+            }
+        });
+   }
+
+    private void checkStoragePermissions(Runnable runAfter) {
         if (getActivity().checkSelfPermission(Manifest.permission.READ_EXTERNAL_STORAGE)
                 != PackageManager.PERMISSION_GRANTED) {
+            mRunAfter = runAfter;
             requestPermissions(new String[] { Manifest.permission.READ_EXTERNAL_STORAGE },
                     PERMISSIONS_REQUEST_READ_EXTERNAL_STORAGE);
         } else {
-            launchFolderPickerWithPerm();
+            runAfter.run();
         }
    }
 
@@ -404,8 +424,11 @@ public class AlarmRingtoneDialog extends DialogFragment implements
                 // If request is cancelled, the result arrays are empty.
                 if (grantResults.length > 0
                         && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                    launchFolderPickerWithPerm();
+                    if (mRunAfter != null) {
+                        mRunAfter.run();
+                    }
                 }
+                mRunAfter = null;
             }
             return;
         }

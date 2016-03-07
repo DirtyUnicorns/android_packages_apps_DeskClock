@@ -1087,7 +1087,7 @@ public class AlarmClockFragment extends DeskClockFragment implements
         // for enabled/disabled alarm while leaving the on/off switch more visible
         private void setDigitalTimeAlpha(ItemHolder holder, boolean enabled) {
             if (enabled) {
-                holder.clock.setTextColor(getResources().getColor(R.color.hot_blue));
+                holder.clock.setTextColor(getResources().getColor(R.color.alarm_activated));
             } else {
                 holder.clock.setTextColor(getResources().getColor(R.color.text_color_light));
             }

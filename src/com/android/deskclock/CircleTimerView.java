@@ -123,7 +123,7 @@ public class CircleTimerView extends View {
         mPaint.setAntiAlias(true);
         mPaint.setStyle(Paint.Style.STROKE);
         mWhiteColor = resources.getColor(R.color.text_color_light);
-        mAccentColor = resources.getColor(R.color.hot_blue);
+        mAccentColor = resources.getColor(R.color.circle_timer_accent);
         mScreenDensity = resources.getDisplayMetrics().density;
 
         mFill.setAntiAlias(true);

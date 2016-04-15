@@ -89,7 +89,7 @@
   <plurals name="alarm_alert_snooze_duration">
     <!-- Duration for one minute -->
     <item quantity="one">1 min</item>
-    <item quantity="few"><xliff:g id="NUMBER">%d</xliff:g> min</item>
+    <item quantity="few"><xliff:g id="number" example="7">%d</xliff:g> min</item>
     <!-- Duration for more than one minute -->
     <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> min</item>
   </plurals>
@@ -101,10 +101,10 @@
          dialog. Says the alarm will snooze for xxx minutes.  -->
   <plurals name="alarm_alert_snooze_set">
     <!-- Duration for one minute -->
-    <item quantity="one">Drzemka przez minutę.</item>
-    <item quantity="few">Drzemka przez <xliff:g id="MINUTES">%d</xliff:g> min.</item>
+    <item quantity="one">Drzemka na 1 minutę.</item>
+    <item quantity="few">Drzemka na <xliff:g id="minutes">%d</xliff:g> minuty.</item>
     <!-- Duration for more than one minute -->
-    <item quantity="other">Snoozing for <xliff:g id="minutes">%d</xliff:g> minutes.</item>
+    <item quantity="other">Drzemka na <xliff:g id="minutes">%d</xliff:g> minut.</item>
   </plurals>
   <!-- Text to appear inside a notification while an alarm is snoozing. -->
   <string name="alarm_alert_snooze_until">Drzemka do <xliff:g id="TIME">%s</xliff:g></string>
@@ -179,16 +179,16 @@
   <plurals name="snooze_duration">
     <!-- Duration for one minute -->
     <item quantity="one">1 minuta</item>
-    <item quantity="few"><xliff:g id="NUMBER">%d</xliff:g> min</item>
+    <item quantity="few"><xliff:g id="number" example="7">%d</xliff:g> minuty</item>
     <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> minutes</item>
+    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> minut</item>
   </plurals>
   <plurals name="snooze_picker_label">
     <!-- Duration for one minute -->
     <item quantity="one">minuta</item>
-    <item quantity="few">min</item>
+    <item quantity="few">minuty</item>
     <!-- Duration for more than one minute -->
-    <item quantity="other">minutes</item>
+    <item quantity="other">minut</item>
   </plurals>
   <!-- Auto silence preference title -->
   <string name="auto_silence_title">Wycisz za</string>
@@ -302,9 +302,9 @@
   <!-- Describes the purpose of the button to begin running a stopwatch -->
   <string name="sw_start_button">Start</string>
   <!-- Describes the purpose of the button to stop a stopwatch. -->
-  <string name="sw_stop_button">Stop</string>
+  <string name="sw_stop_button">Zatrzymaj</string>
   <!-- Describes the purpose of the button to pause a stopwatch. -->
-  <string name="sw_pause_button">Pause</string>
+  <string name="sw_pause_button">Pauza</string>
   <!-- Describes the purpose of the button to record current the stopwatch value into the4 collection of lap times. -->
   <string name="sw_lap_button">Okrążenie</string>
   <!-- Describes the purpose of the button to return the stopwatch to zero and remove the lap times. -->
@@ -336,24 +336,24 @@
   <!-- Stopwatch accessibility strings -->
   <plurals name="Nhours_description">
     <!-- 1 hour -->
-    <item quantity="one">1 godz.</item>
-    <item quantity="few"><xliff:g id="NUMBER">%d</xliff:g> godz.</item>
+    <item quantity="one">1 godzina</item>
+    <item quantity="few"><xliff:g id="number" example="7">%d</xliff:g> godziny</item>
     <!-- more -->
-    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> hours</item>
+    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> godzin</item>
   </plurals>
   <plurals name="Nminutes_description">
     <!-- 1 minute -->
-    <item quantity="one">1 min</item>
-    <item quantity="few"><xliff:g id="NUMBER">%d</xliff:g> min</item>
+    <item quantity="one">1 minuta</item>
+    <item quantity="few"><xliff:g id="number" example="7">%d</xliff:g> minuty</item>
     <!-- more -->
-    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> minutes</item>
+    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> minut</item>
   </plurals>
   <plurals name="Nseconds_description">
     <!-- 1 second -->
-    <item quantity="one">1 s</item>
-    <item quantity="few"><xliff:g id="NUMBER">%d</xliff:g> s</item>
+    <item quantity="one">1 sekunda</item>
+    <item quantity="few"><xliff:g id="number" example="7">%d</xliff:g> sekundy</item>
     <!-- more -->
-    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> seconds</item>
+    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> sekund</item>
   </plurals>
   <!-- timer strings -->
   <!-- Describes the purpose of the button to add a new timer -->
@@ -367,7 +367,7 @@
   <!-- Like "timer_plus_one", but with 'minute' abbreviated for the notification. -->
   <string name="timer_plus_1_min">Dodaj 1 min</string>
   <!-- Describes the purpose of the button to stop the timer. -->
-  <string name="timer_stop">Stop</string>
+  <string name="timer_stop">Zatrzymaj</string>
   <!-- Describes the purpose of the button to stop and delete the timer. -->
   <string name="timer_done">Gotowe</string>
   <!-- Describes the purpose of the button to return the timer to it's original starting value. -->
@@ -396,9 +396,9 @@
   <plurals name="timers_num">
     <!-- 1 timer -->
     <item quantity="one">1 minuta</item>
-    <item quantity="few"><xliff:g id="NUMBER">%d</xliff:g> minutniki</item>
+    <item quantity="few"><xliff:g id="number" example="7">%d</xliff:g> razy</item>
     <!-- more -->
-    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> timers</item>
+    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> razy</item>
   </plurals>
   <!-- Title with the clock on the main page displaying the user's regular timezone (shows when automatic_home_clock enabled) -->
   <string name="home_label">Dom</string>
@@ -580,7 +580,7 @@
     <item quantity="one">Usunąć wybrany alarm?</item>
     <item quantity="few">Usunąć wybrane alarmy?</item>
     <!-- Confirmation more than one alarm  -->
-    <item quantity="other">Delete selected alarms?</item>
+    <item quantity="other">Usunąć wybrane alarmy?</item>
   </plurals>
   <!-- Timer deletion confirmation -->
   <string name="timer_delete_confirmation">Usunąć ten minutnik?</string>

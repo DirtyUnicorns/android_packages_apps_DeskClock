@@ -321,7 +321,7 @@
   <string name="zero">0</string>
   <!--  Stopwatch share strings -->
   <!-- Sentence within the message created to share the total time recorded within the stopwatch -->
-  <string name="sw_share_main">My time is <xliff:g id="time">%s</xliff:g></string>
+  <string name="sw_share_main">Mon temps chronométré est <xliff:g id="time">%s</xliff:g></string>
   <!-- Header within the message created to share a list of lap times (a new line is appended to this) -->
   <string name="sw_share_laps">Temps de circuit :</string>
   <!-- Label to enumerate the number of laps in the notification the user has counted -->
@@ -494,7 +494,7 @@
     <item>"Yangon"</item>
     <item>"Krasnoïarsk"</item>
     <item>"Bangkok"</item>
-    <item>"Beijing"</item>
+    <item>"Pékin"</item>
     <item>"Hong Kong"</item>
     <item>"Irkoutsk"</item>
     <item>"Kuala Lumpur"</item>

@@ -300,7 +300,7 @@
   <!-- Describes the purpose of the button to stop a stopwatch. -->
   <string name="sw_stop_button">Leállítás</string>
   <!-- Describes the purpose of the button to pause a stopwatch. -->
-  <string name="sw_pause_button">Pause</string>
+  <string name="sw_pause_button">Szüneteltetés</string>
   <!-- Describes the purpose of the button to record current the stopwatch value into the4 collection of lap times. -->
   <string name="sw_lap_button">Kör</string>
   <!-- Describes the purpose of the button to return the stopwatch to zero and remove the lap times. -->
@@ -450,7 +450,7 @@
     <item>"Atlanti-óceáni idő (Kanada)"</item>
     <item>"Manaus"</item>
     <item>"Santiago"</item>
-    <item>"Newfoundland"</item>
+    <item>"Újfundland"</item>
     <item>"Brasília"</item>
     <item>"Buenos Aires"</item>
     <item>"Grönland"</item>

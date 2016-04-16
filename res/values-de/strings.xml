@@ -304,7 +304,7 @@
   <!-- Describes the purpose of the button to record current the stopwatch value into the4 collection of lap times. -->
   <string name="sw_lap_button">Runde</string>
   <!-- Describes the purpose of the button to return the stopwatch to zero and remove the lap times. -->
-  <string name="sw_reset_button">Reset</string>
+  <string name="sw_reset_button">Zurücksetzen</string>
   <!-- Describes the purpose of the button to share the stopwatch value.
          Also used as title for chooser when sharing stopwatch results. -->
   <string name="sw_share_button">Teilen</string>
@@ -364,7 +364,7 @@
   <!-- Describes the purpose of the button to stop and delete the timer. -->
   <string name="timer_done">Fertig</string>
   <!-- Describes the purpose of the button to return the timer to it's original starting value. -->
-  <string name="timer_reset">Reset</string>
+  <string name="timer_reset">Zurücksetzen</string>
   <!-- Describes the purpose of the button to discard the current dialog values. Will also close the dialog if other time's exist -->
   <string name="timer_cancel">Abbrechen</string>
   <!-- Notification content shown when a timer has completed and has no more time remaining -->
@@ -382,7 +382,7 @@
     <item>L33t-Zeiten</item>
     <item>Wahnsinnsgeschwindigkeit</item>
     <item>Let\'s do the time warp again!</item>
-    <item>Just a jump to the left.</item>
+    <item>Nur ein Sprung nach links.</item>
     <item>Sie haben es ganz schön eilig.</item>
     <item>Photonengeschwindigkeit</item>
   </string-array>
@@ -434,13 +434,13 @@
     <item>"Midwayinseln"</item>
     <item>"Hawaii"</item>
     <item>"Alaska"</item>
-    <item>"Pacific Time"</item>
+    <item>"Pazifische Zeit"</item>
     <item>"Tijuana"</item>
     <item>"Arizona"</item>
     <item>"Chihuahua"</item>
-    <item>"Mountain Time"</item>
+    <item>"Mountain Standard Time"</item>
     <item>"Mittelamerika"</item>
-    <item>"Central Time"</item>
+    <item>"Zentralzeit"</item>
     <item>"Mexiko-Stadt"</item>
     <item>"Saskatchewan"</item>
     <item>"Bogotá"</item>
@@ -486,13 +486,13 @@
     <item>"Kabul"</item>
     <item>"Islamabad, Karatschi"</item>
     <item>"Oral"</item>
-    <item>"Yekaterinburg"</item>
+    <item>"Jekaterinburg"</item>
     <item>"Kalkutta"</item>
     <item>"Sri Lanka"</item>
     <item>"Kathmandu"</item>
     <item>"Astana"</item>
     <item>"Rangun"</item>
-    <item>"Krasnoyarsk"</item>
+    <item>"Krasnojarsk"</item>
     <item>"Bangkok"</item>
     <item>"Peking"</item>
     <item>"Hongkong"</item>
@@ -502,13 +502,13 @@
     <item>"Taipeh"</item>
     <item>"Seoul"</item>
     <item>"Tokio, Osaka"</item>
-    <item>"Yakutsk"</item>
+    <item>"Jakutsk"</item>
     <item>"Adelaide"</item>
     <item>"Darwin"</item>
     <item>"Brisbane"</item>
     <item>"Hobart"</item>
     <item>"Sydney, Canberra"</item>
-    <item>"Vladivostok"</item>
+    <item>"Wladiwostok"</item>
     <item>"Guam"</item>
     <item>"Magadan"</item>
     <item>"Auckland"</item>

@@ -53,7 +53,7 @@
   <string name="alarm_type_select_title">Źródło:</string>
   <string name="alarm_test_button">Testuj</string>
   <string name="keep_screen_on_title">Utrzymuj ekran włączony</string>
-  <string name="keep_screen_on_summary">Screen will not be turned off when alarm is active</string>
+  <string name="keep_screen_on_summary">Ekran nie zostanie wyłączony, gdy alarm jest aktywny</string>
   <string name="folder_dialog_title">Wybierz folder</string>
   <string name="play_error_title">Błąd odtwarzania alarmu</string>
   <string name="random_mode_enable_title">Losowo</string>
@@ -62,7 +62,7 @@
   <string name="entry_ten_secs">10 sekund</string>
   <string name="entry_fifteen_secs">15 sekund</string>
   <string name="entry_thirty_secs">30 sekund</string>
-  <string name="pre_alarm_dismiss_all_summary">Dismissing active pre-alarm will also dismiss main alarm</string>
+  <string name="pre_alarm_dismiss_all_summary">Odrzucenie aktywnego alarmu wstępnego spowoduje również odrzucenie głównego</string>
   <string name="pre_alarm_dismiss_all_title">Odrzuć wszystkie</string>
   <string name="fallback_ringtone">Domyślny</string>
   <string name="ringtone_unknown">Nieznany dzwonek</string>
@@ -75,8 +75,8 @@
   <string name="prealarm_default_label">Wstępny alarm</string>
   <string name="fullscreen_alarm_settings">Alarm na pełnym ekranie</string>
   <string name="fullscreen_alarm_title">Alarm na pełnym ekranie</string>
-  <string name="fullscreen_alarm_summary">Use full screen alarms instead of heads up notification</string>
-  <string name="take_persistent_grant_uri_permission_failed_msg">Failed to take persistent grant permission for ringtone</string>
+  <string name="fullscreen_alarm_summary">Użyj alarmu pełnoekranowego zamiast wyskakującego powiadomienia</string>
+  <string name="take_persistent_grant_uri_permission_failed_msg">Uzyskanie trwałych uprawnień dla dzwonka nie powiodło się</string>
   <string name="notification_settings">Powiadomienia</string>
   <!-- User-defined cities -->
   <string name="menu_item_add">Dodaj</string>
@@ -91,7 +91,7 @@
   <string name="cities_add_already_exists">Miasto już istnieje w bazie danych</string>
   <string name="cities_add_city_failed">Nie można dodać miasta</string>
   <string name="cities_delete_city_title">Usuń miasto</string>
-  <string name="cities_delete_city_msg">Do you want to delete <xliff:g id="city">%s</xliff:g>?</string>
+  <string name="cities_delete_city_msg">Czy chcesz usunąć <xliff:g id="city">%s</xliff:g>?</string>
   <string name="cities_delete_city_failed">Nie można usunąć miasta</string>
   <string name="timer_settings">Minutnik</string>
   <string name="timer_alarm_title">Dzwonek</string>

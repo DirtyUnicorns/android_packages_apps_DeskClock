@@ -263,12 +263,12 @@
   <!-- Label on the main screen control used to set alarm [CHAR LIMIT=30]-->
   <string name="control_set_alarm">Imposta sveglia</string>
   <!-- Label on the main screen control used to set alarm when there is already an existing alarm [CHAR LIMIT=30]-->
-  <string name="control_set_alarm_with_existing"><xliff:g id="time">%s</xliff:g></string>
+  <string name="control_set_alarm_with_existing"><xliff:g id="time">%s </xliff:g></string>
   <!--  ActionBar strings -->
   <!-- Describes the purpose of the tab button which which switches the activity to the Alarm page -->
   <string name="menu_alarm">Sveglia</string>
   <!-- Describes the purpose of the tab button which which switches the activity to the Timer page -->
-  <string name="menu_timer">Timer</string>
+  <string name="menu_timer">Conto alla rovescia</string>
   <!-- Describes the purpose of the tab button which which switches the activity to the Clock page -->
   <string name="menu_clock">Orologio</string>
   <!-- Describes the purpose of the tab button which which switches the activity to the Stopwatch page -->
@@ -300,7 +300,7 @@
   <!-- Describes the purpose of the button to stop a stopwatch. -->
   <string name="sw_stop_button">Interrompi</string>
   <!-- Describes the purpose of the button to pause a stopwatch. -->
-  <string name="sw_pause_button">Pause</string>
+  <string name="sw_pause_button">Metti in pausa</string>
   <!-- Describes the purpose of the button to record current the stopwatch value into the4 collection of lap times. -->
   <string name="sw_lap_button">Giro</string>
   <!-- Describes the purpose of the button to return the stopwatch to zero and remove the lap times. -->
@@ -370,7 +370,7 @@
   <!-- Notification content shown when a timer has completed and has no more time remaining -->
   <string name="timer_times_up">Tempo scaduto</string>
   <!-- Label associated with a notification for a Timer -->
-  <string name="timer_notification_label">Timer</string>
+  <string name="timer_notification_label">Conto alla rovescia</string>
   <!-- Toast content shown when user attempts to create a new timer when there are already 4 timers -->
   <string name="timers_max_count_reached">Massimo quattro timer</string>
   <!-- Jocular content that user may append when sharing the lap times -->
@@ -434,7 +434,7 @@
     <item>"Isola di Midway"</item>
     <item>"Hawaii"</item>
     <item>"Alaska"</item>
-    <item>"Pacific Time"</item>
+    <item>"Ora del Pacifico"</item>
     <item>"Tijuana"</item>
     <item>"Arizona"</item>
     <item>"Chihuahua"</item>
@@ -446,8 +446,8 @@
     <item>"Bogotá"</item>
     <item>"Fuso orario orientale"</item>
     <item>"Venezuela"</item>
-    <item>"Atlantic Time (Barbados)"</item>
-    <item>"Atlantic Time (Canada)"</item>
+    <item>"Ora Costa Atlantica (Barbados)"</item>
+    <item>"Ora Costa Atlantica (Canada)"</item>
     <item>"Manaus"</item>
     <item>"Santiago"</item>
     <item>"Terranova"</item>
@@ -455,7 +455,7 @@
     <item>"Buenos Aires"</item>
     <item>"Groenlandia"</item>
     <item>"Montevideo"</item>
-    <item>"Mid-Atlantic"</item>
+    <item>"Medio Atlantico (Mid-Atlantic)"</item>
     <item>"Azzorre"</item>
     <item>"Isole di Capo Verde"</item>
     <item>"Casablanca"</item>
@@ -465,11 +465,11 @@
     <item>"Bruxelles"</item>
     <item>"Sarajevo"</item>
     <item>"Windhoek"</item>
-    <item>"W. Africa Time"</item>
+    <item>"Tempo Africa Ovest"</item>
     <item>"Amman, Giordania"</item>
     <item>"Atene, Istanbul"</item>
     <item>"Beirut, Libano"</item>
-    <item>"Cairo"</item>
+    <item>"Il Cairo"</item>
     <item>"Helsinki"</item>
     <item>"Gerusalemme"</item>
     <item>"Minsk"</item>
@@ -487,7 +487,7 @@
     <item>"Islamabad, Karachi"</item>
     <item>"Ural'sk"</item>
     <item>"Yekaterinburg"</item>
-    <item>"Kolkata"</item>
+    <item>"Calcutta"</item>
     <item>"Sri Lanka"</item>
     <item>"Kathmandu"</item>
     <item>"Astana"</item>

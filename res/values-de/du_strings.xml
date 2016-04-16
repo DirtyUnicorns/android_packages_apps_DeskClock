@@ -38,13 +38,13 @@
   <string name="media_start">Beginn der Wiedergabe senden</string>
   <string name="alarm_alert_prealarm_dismiss_title">Vor-Alarm ausgestellt</string>
   <string name="prealarm_time_select">Vor-Alarm Zeit:</string>
-  <string name="alarm_title">Alarm</string>
+  <string name="alarm_title">Wecker</string>
   <string name="prealarm_title">Vor-Alarm</string>
   <string name="alarm_volume_enable_title">System Alarmlautstärke</string>
   <string name="alarm_test_dialog_title">Alarm abspielen</string>
   <string name="alarm_test_dialog_content">Drücken Sie auf Abbrechen, um zu stoppen</string>
   <string name="alarm_test">Alarm abspielen</string>
-  <string name="alarmType">Alarm</string>
+  <string name="alarmType">Wecker</string>
   <string name="ringtoneType">Klingelton</string>
   <string name="notificationType">Benachrichtigung</string>
   <string name="mediaType">Musik-Datei</string>

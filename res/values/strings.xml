@@ -357,7 +357,7 @@
     <string name="control_set_alarm">Set alarm</string>
 
     <!-- Label on the main screen control used to set alarm when there is already an existing alarm [CHAR LIMIT=30]-->
-    <string name="control_set_alarm_with_existing"><xliff:g id="time">%s</xliff:g></string>
+    <string name="control_set_alarm_with_existing" translatable="false"><xliff:g id="time">%s</xliff:g></string>
 
     <!--  ActionBar strings -->
     <!-- Describes the purpose of the tab button which which switches the activity to the Alarm page -->
@@ -418,7 +418,7 @@
     <string name="minutes_label_description">minutes</string>
     <string name="seconds_label_description">seconds</string>
 
-    <string name="zero">0</string>
+    <string name="zero" translatable="false">0</string>
 
     <!--  Stopwatch share strings -->
     <!-- Sentence within the message created to share the total time recorded within the stopwatch -->

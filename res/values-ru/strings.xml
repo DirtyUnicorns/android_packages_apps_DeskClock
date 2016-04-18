@@ -89,9 +89,9 @@
   <plurals name="alarm_alert_snooze_duration">
     <!-- Duration for one minute -->
     <item quantity="one">на 1 мин.</item>
-    <item quantity="few">на <xliff:g id="NUMBER">%d</xliff:g> мин.</item>
+    <item quantity="few">на 1 мин.</item>
     <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> min</item>
+    <item quantity="other">на 1 мин.</item>
   </plurals>
   <!-- The text shown after user dismissed an alerting alarm [CHAR LIMIT=15] -->
   <string name="alarm_alert_off_text">Выключено</string>
@@ -102,9 +102,9 @@
   <plurals name="alarm_alert_snooze_set">
     <!-- Duration for one minute -->
     <item quantity="one">Повтор через 1 мин.</item>
-    <item quantity="few">Повтор через <xliff:g id="MINUTES">%d</xliff:g> мин.</item>
+    <item quantity="few">Повтор через 1 мин.</item>
     <!-- Duration for more than one minute -->
-    <item quantity="other">Snoozing for <xliff:g id="minutes">%d</xliff:g> minutes.</item>
+    <item quantity="other">Повтор через 1 мин.</item>
   </plurals>
   <!-- Text to appear inside a notification while an alarm is snoozing. -->
   <string name="alarm_alert_snooze_until">Повтор в <xliff:g id="TIME">%s</xliff:g></string>
@@ -163,7 +163,7 @@
   <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: concatenate days with
          this character, i.e. "Mon, Tue, Wed" -->
-  <string name="day_concat">", "</string>
+  <string name="day_concat">","</string>
   <!-- Appears at the top of the Clock Picker screen: Tell user to
          select a clock to display -->
   <string name="clock_instructions">Выберите часы</string>
@@ -179,16 +179,16 @@
   <plurals name="snooze_duration">
     <!-- Duration for one minute -->
     <item quantity="one">1 мин.</item>
-    <item quantity="few"><xliff:g id="NUMBER">%d</xliff:g> мин.</item>
+    <item quantity="few">1 мин.</item>
     <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> minutes</item>
+    <item quantity="other">1 мин.</item>
   </plurals>
   <plurals name="snooze_picker_label">
     <!-- Duration for one minute -->
     <item quantity="one">мин.</item>
     <item quantity="few">мин.</item>
     <!-- Duration for more than one minute -->
-    <item quantity="other">minutes</item>
+    <item quantity="other">мин.</item>
   </plurals>
   <!-- Auto silence preference title -->
   <string name="auto_silence_title">Автовыключение</string>
@@ -244,7 +244,7 @@
   <string name="gallery_button_description">Галерея</string>
   <string name="music_button_description">Музыка</string>
   <string name="nightmode_button_description">Затемнить</string>
-  <string name="home_button_description">Launcher</string>
+  <string name="home_button_description">Лаунчер</string>
   <string name="desk_clock_button_description">Внешний вид</string>
   <!-- Accessibility labels for alarm buttons -->
   <string name="label_description">Ярлык</string>
@@ -267,7 +267,6 @@
   <!-- Label on the main screen control used to set alarm [CHAR LIMIT=30]-->
   <string name="control_set_alarm">Установить будильник</string>
   <!-- Label on the main screen control used to set alarm when there is already an existing alarm [CHAR LIMIT=30]-->
-  <string name="control_set_alarm_with_existing"><xliff:g id="time">%s</xliff:g></string>
   <!--  ActionBar strings -->
   <!-- Describes the purpose of the tab button which which switches the activity to the Alarm page -->
   <string name="menu_alarm">Будильник</string>
@@ -304,7 +303,7 @@
   <!-- Describes the purpose of the button to stop a stopwatch. -->
   <string name="sw_stop_button">Стоп</string>
   <!-- Describes the purpose of the button to pause a stopwatch. -->
-  <string name="sw_pause_button">Pause</string>
+  <string name="sw_pause_button">Пауза</string>
   <!-- Describes the purpose of the button to record current the stopwatch value into the4 collection of lap times. -->
   <string name="sw_lap_button">Круг</string>
   <!-- Describes the purpose of the button to return the stopwatch to zero and remove the lap times. -->
@@ -322,7 +321,6 @@
   <string name="hours_label_description">ч.</string>
   <string name="minutes_label_description">мин.</string>
   <string name="seconds_label_description">сек.</string>
-  <string name="zero">0</string>
   <!--  Stopwatch share strings -->
   <!-- Sentence within the message created to share the total time recorded within the stopwatch -->
   <string name="sw_share_main">Мое время: <xliff:g id="TIME">%s</xliff:g></string>
@@ -337,23 +335,23 @@
   <plurals name="Nhours_description">
     <!-- 1 hour -->
     <item quantity="one">1 ч.</item>
-    <item quantity="few"><xliff:g id="NUMBER">%d</xliff:g> ч.</item>
+    <item quantity="few">1 ч.</item>
     <!-- more -->
-    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> hours</item>
+    <item quantity="other">1 ч.</item>
   </plurals>
   <plurals name="Nminutes_description">
     <!-- 1 minute -->
     <item quantity="one">1 мин.</item>
-    <item quantity="few"><xliff:g id="NUMBER">%d</xliff:g> мин.</item>
+    <item quantity="few">1 мин.</item>
     <!-- more -->
-    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> minutes</item>
+    <item quantity="other">1 мин.</item>
   </plurals>
   <plurals name="Nseconds_description">
     <!-- 1 second -->
     <item quantity="one">1 сек.</item>
-    <item quantity="few"><xliff:g id="NUMBER">%d</xliff:g> сек.</item>
+    <item quantity="few">1 сек.</item>
     <!-- more -->
-    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> seconds</item>
+    <item quantity="other">1 сек.</item>
   </plurals>
   <!-- timer strings -->
   <!-- Describes the purpose of the button to add a new timer -->
@@ -396,9 +394,9 @@
   <plurals name="timers_num">
     <!-- 1 timer -->
     <item quantity="one">1 мин.</item>
-    <item quantity="few">Таймеров: <xliff:g id="NUMBER">%d</xliff:g></item>
+    <item quantity="few">1 мин.</item>
     <!-- more -->
-    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> timers</item>
+    <item quantity="other">1 мин.</item>
   </plurals>
   <!-- Title with the clock on the main page displaying the user's regular timezone (shows when automatic_home_clock enabled) -->
   <string name="home_label">Дома</string>
@@ -578,9 +576,9 @@
   <plurals name="alarm_delete_confirmation">
     <!-- Confirmation for one alarm -->
     <item quantity="one">Удалить выбранный будильник?</item>
-    <item quantity="few">Удалить выбранные будильники?</item>
+    <item quantity="few">Удалить выбранный будильник?</item>
     <!-- Confirmation more than one alarm  -->
-    <item quantity="other">Delete selected alarms?</item>
+    <item quantity="other">Удалить выбранный будильник?</item>
   </plurals>
   <!-- Timer deletion confirmation -->
   <string name="timer_delete_confirmation">Удалить этот таймер?</string>

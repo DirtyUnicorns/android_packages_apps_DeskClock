@@ -244,7 +244,7 @@
   <string name="gallery_button_description">Galerie</string>
   <string name="music_button_description">Hudba</string>
   <string name="nightmode_button_description">Ztlumit</string>
-  <string name="home_button_description">Launcher</string>
+  <string name="home_button_description">Spouštěč</string>
   <string name="desk_clock_button_description">Zobrazení hodin</string>
   <!-- Accessibility labels for alarm buttons -->
   <string name="label_description">Štítek</string>
@@ -267,7 +267,6 @@
   <!-- Label on the main screen control used to set alarm [CHAR LIMIT=30]-->
   <string name="control_set_alarm">Nastavit budík</string>
   <!-- Label on the main screen control used to set alarm when there is already an existing alarm [CHAR LIMIT=30]-->
-  <string name="control_set_alarm_with_existing"><xliff:g id="time">%s</xliff:g></string>
   <!--  ActionBar strings -->
   <!-- Describes the purpose of the tab button which which switches the activity to the Alarm page -->
   <string name="menu_alarm">Budík</string>
@@ -304,7 +303,7 @@
   <!-- Describes the purpose of the button to stop a stopwatch. -->
   <string name="sw_stop_button">Zastavit</string>
   <!-- Describes the purpose of the button to pause a stopwatch. -->
-  <string name="sw_pause_button">Pause</string>
+  <string name="sw_pause_button">Pozastavit</string>
   <!-- Describes the purpose of the button to record current the stopwatch value into the4 collection of lap times. -->
   <string name="sw_lap_button">Úsek</string>
   <!-- Describes the purpose of the button to return the stopwatch to zero and remove the lap times. -->
@@ -313,16 +312,15 @@
          Also used as title for chooser when sharing stopwatch results. -->
   <string name="sw_share_button">Sdílet</string>
   <!-- Abbreviation for temporal hours [CHAR LIMIT=1] -->
-  <string name="hours_label">h</string>
+  <string name="hours_label">hod</string>
   <!-- Abbreviation for temporal minutes [CHAR LIMIT=1] -->
-  <string name="minutes_label">m</string>
+  <string name="minutes_label">min</string>
   <!-- Abbreviation for temporal seconds [CHAR LIMIT=1] -->
   <string name="seconds_label">s</string>
   <!-- Accessibility strings -->
   <string name="hours_label_description">hodiny</string>
   <string name="minutes_label_description">minuty</string>
   <string name="seconds_label_description">sekundy</string>
-  <string name="zero">0</string>
   <!--  Stopwatch share strings -->
   <!-- Sentence within the message created to share the total time recorded within the stopwatch -->
   <string name="sw_share_main">Můj čas je <xliff:g id="TIME">%s</xliff:g>.</string>

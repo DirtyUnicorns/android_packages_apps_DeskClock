@@ -23,8 +23,8 @@
   <string name="flip_action_title">Действие при повороте</string>
   <string name="flip_action_dialog_title">Действие при повороте</string>
   <!-- Setting title for the shake action setting. -->
-  <string name="shake_action_title">Действие при стряхивании</string>
-  <string name="shake_action_dialog_title">Действие при стряхивании</string>
+  <string name="shake_action_title">Действие при встряхивании</string>
+  <string name="shake_action_dialog_title">Действие при встряхивании</string>
   <!-- Setting labels on Set alarm screen: Increasing volume on or off -->
   <string name="alarm_increasing_volume">Возрастающая громкость</string>
   <string name="snooze_count_title">Разрешенное количество откладывания будильника</string>

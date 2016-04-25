@@ -256,7 +256,7 @@
   <string name="alarm_klaxon_service_desc">Hanglejátszó szolgáltatás az Órában beállított riasztásokhoz.</string>
   <!-- String displayed as the alert summary while loading the alert name from
          the media player. [CHAR LIMIT=NONE] -->
-  <string name="loading_ringtone">Csengőhang betöltése...</string>
+  <string name="loading_ringtone">Csengőhang betöltése\u2026</string>
   <!-- A description for the DeskClock timer sound playback service.
          [CHAR LIMIT=NONE] -->
   <string name="timer_ring_service_desc">Hanglejátszó szolgáltatás az Órában beállított időzítőkhöz.</string>

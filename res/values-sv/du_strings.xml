@@ -62,7 +62,7 @@
   <string name="entry_ten_secs">10 sekunder</string>
   <string name="entry_fifteen_secs">15 sekunder</string>
   <string name="entry_thirty_secs">30 sekunder</string>
-  <string name="pre_alarm_dismiss_all_summary">Dismissing active pre-alarm will also dismiss main alarm</string>
+  <string name="pre_alarm_dismiss_all_summary">Avaktivera aktivt föralarm avaktiverar även huvudalarmet</string>
   <string name="pre_alarm_dismiss_all_title">Avfärda alla</string>
   <string name="fallback_ringtone">Standard</string>
   <string name="ringtone_unknown">Okänd ringsignal</string>
@@ -76,7 +76,7 @@
   <string name="fullscreen_alarm_settings">Helskärms-larm</string>
   <string name="fullscreen_alarm_title">Helskärms-larm</string>
   <string name="fullscreen_alarm_summary">Använd helskärmslarm istället för notifikation</string>
-  <string name="take_persistent_grant_uri_permission_failed_msg">Failed to take persistent grant permission for ringtone</string>
+  <string name="take_persistent_grant_uri_permission_failed_msg">Det gick inte att ge behörighet för ringsignal</string>
   <string name="notification_settings">Notiser</string>
   <!-- User-defined cities -->
   <string name="menu_item_add">Lägg till</string>

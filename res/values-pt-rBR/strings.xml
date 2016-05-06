@@ -20,44 +20,44 @@
   <string name="app_label">Relógio</string>
   <!-- Title for AlarmClock activity -->
   <!-- Label for the Alarms activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="alarm_list_title">Alarms</string>
+  <string name="alarm_list_title">Alarmes</string>
   <!-- Menu item on Alarm Clock screen: Add alarm -->
-  <string name="add_alarm">Add alarm</string>
+  <string name="add_alarm">Adicionar alarme</string>
   <!-- Menu item on Alarm Clock screen: Desk clock -->
-  <string name="menu_desk_clock">Desk clock</string>
+  <string name="menu_desk_clock">Relógio de Mesa</string>
   <!-- Menu item on Alarm Clock screen: Edit alarm -->
-  <string name="menu_edit_alarm">Edit alarm</string>
+  <string name="menu_edit_alarm">Editar alarme</string>
   <!-- Context Menu Item on Alarm Settings screen: Delete alarm -->
-  <string name="delete_alarm">Delete alarm</string>
+  <string name="delete_alarm">Excluir alarme</string>
   <!-- Context Menu Item on Alarm Settings screen: Enable alarm -->
-  <string name="enable_alarm">Turn alarm on</string>
+  <string name="enable_alarm">Ativar alarme</string>
   <!-- Context Menu Item on Alarm Settings screen: Disable alarm -->
-  <string name="disable_alarm">Turn alarm off</string>
+  <string name="disable_alarm">Desativar alarme</string>
   <!-- Delete alarm confirmation dialog message. -->
-  <string name="delete_alarm_confirm">Delete this alarm?</string>
+  <string name="delete_alarm_confirm">Excluir este alarme?</string>
   <!-- Menu item on Alarm Clock screen: Show clock -->
-  <string name="show_clock">Show clock</string>
+  <string name="show_clock">Mostrar relógio</string>
   <!-- Menu item on Alarm Clock screen: Hide clock -->
-  <string name="hide_clock">Hide clock</string>
+  <string name="hide_clock">Ocultar relógio</string>
   <!-- Setting label on Set alarm screen: Label -->
   <string name="label">Label</string>
   <!-- Default label to display for an alarm -->
   <string name="default_label">Alarm</string>
   <!-- Preference category on Alarm Settings screen: Set alarm -->
   <!-- Also label for the old Alarms dialog activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="set_alarm">Set alarm</string>
+  <string name="set_alarm">Definir alarme</string>
   <!-- Setting labels on Set alarm screen: Vibration on or off -->
-  <string name="alarm_vibrate">Vibrate</string>
+  <string name="alarm_vibrate">Vibração</string>
   <!-- Setting labels on Set alarm screen: Repeat -->
   <string name="alarm_repeat">Repeat</string>
   <!-- Setting labels on Set alarm screen: Select alarm ringtone  -->
-  <string name="alert">Alarm Ringtone</string>
+  <string name="alert">Toque do alarme</string>
   <!-- Label on expanded alarm edit view. -->
-  <string name="ringtone">Ringtone</string>
+  <string name="ringtone">Toque</string>
   <!-- Setting labels on Set alarm screen: Set time  -->
-  <string name="time">Time</string>
+  <string name="time">Horário</string>
   <!-- Label shown when user is setting up non-repeating alarm for tomorrow [CHAR LIMIT=15] -->
-  <string name="alarm_tomorrow">Tomorrow</string>
+  <string name="alarm_tomorrow">Amanhã</string>
   <!-- Label shown when user is setting up non-repeating alarm for later today [CHAR LIMIT=15] -->
   <string name="alarm_today">Today</string>
   <!-- The text shown above the clock when alarm is alerting [CHAR LIMIT=10] -->

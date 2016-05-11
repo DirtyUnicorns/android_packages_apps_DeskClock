@@ -95,7 +95,7 @@
   <!-- The text shown after user dismissed an alerting alarm [CHAR LIMIT=15] -->
   <string name="alarm_alert_off_text">Alarm av</string>
   <!-- Button labels on the alarm dialog: Snooze -->
-  <string name="alarm_alert_snooze_text">Snooze</string>
+  <string name="alarm_alert_snooze_text">Snooza</string>
   <!-- Toast that appears after Alarm is snoozed from the Alarm
          dialog. Says the alarm will snooze for xxx minutes.  -->
   <plurals name="alarm_alert_snooze_set">
@@ -228,7 +228,7 @@
   <string name="volume_button_dialog_title">Knappfunktion</string>
   <!-- Entries listed in the setting for the side-button action. -->
   <string-array name="volume_button_setting_entries">
-    <item>Snooze</item>
+    <item>Snooza</item>
     <item>Stäng av</item>
     <item>Gör ingenting</item>
   </string-array>
@@ -265,7 +265,7 @@
   <!-- Label on the main screen control used to set alarm when there is already an existing alarm [CHAR LIMIT=30]-->
   <!--  ActionBar strings -->
   <!-- Describes the purpose of the tab button which which switches the activity to the Alarm page -->
-  <string name="menu_alarm">Alarm</string>
+  <string name="menu_alarm">Larm</string>
   <!-- Describes the purpose of the tab button which which switches the activity to the Timer page -->
   <string name="menu_timer">Timer</string>
   <!-- Describes the purpose of the tab button which which switches the activity to the Clock page -->
@@ -299,7 +299,7 @@
   <!-- Describes the purpose of the button to stop a stopwatch. -->
   <string name="sw_stop_button">Avbryt</string>
   <!-- Describes the purpose of the button to pause a stopwatch. -->
-  <string name="sw_pause_button">Pause</string>
+  <string name="sw_pause_button">Pausa</string>
   <!-- Describes the purpose of the button to record current the stopwatch value into the4 collection of lap times. -->
   <string name="sw_lap_button">Varv</string>
   <!-- Describes the purpose of the button to return the stopwatch to zero and remove the lap times. -->
@@ -418,7 +418,7 @@
   <!-- Textual content of the button to discard the current dialog values and close the dialog -->
   <string name="time_picker_cancel">Avbryt</string>
   <!-- Textual content of the button to update an alarm with the current dialog values -->
-  <string name="time_picker_set">OK</string>
+  <string name="time_picker_set">Ok</string>
   <string name="time_picker_time_seperator">:</string>
   <!--  place holder for am/pm label when it is not set -->
   <string name="time_picker_ampm_label">--</string>
@@ -436,7 +436,7 @@
     <item>"Tijuana"</item>
     <item>"Arizona"</item>
     <item>"Chihuahua"</item>
-    <item>"Mountain Time"</item>
+    <item>"Mountain-tid"</item>
     <item>"Centralamerika"</item>
     <item>"Central Time"</item>
     <item>"Mexico City"</item>
@@ -444,7 +444,7 @@
     <item>"Bogotá"</item>
     <item>"Eastern Time"</item>
     <item>"Venezuela"</item>
-    <item>"Atlantic Time (Barbados)"</item>
+    <item>"Atlanten tid (Barbados)"</item>
     <item>"Atlantic Time (Kanada)"</item>
     <item>"Manaus"</item>
     <item>"Santiago"</item>
@@ -453,7 +453,7 @@
     <item>"Buenos Aires"</item>
     <item>"Grönland"</item>
     <item>"Montevideo"</item>
-    <item>"Mid-Atlantic"</item>
+    <item>"Mellersta Atlantkusten"</item>
     <item>"Azorerna"</item>
     <item>"Kap Verde-öarna"</item>
     <item>"Casablanca"</item>
@@ -472,7 +472,7 @@
     <item>"Jerusalem"</item>
     <item>"Minsk"</item>
     <item>"Harare"</item>
-    <item>"Baghdad"</item>
+    <item>"Bagdad"</item>
     <item>"Moskva"</item>
     <item>"Kuwait"</item>
     <item>"Nairobi"</item>

@@ -40,16 +40,16 @@
   <!-- Menu item on Alarm Clock screen: Hide clock -->
   <string name="hide_clock">Ocultar relógio</string>
   <!-- Setting label on Set alarm screen: Label -->
-  <string name="label">Label</string>
+  <string name="label">Etiqueta</string>
   <!-- Default label to display for an alarm -->
-  <string name="default_label">Alarm</string>
+  <string name="default_label">Alarme</string>
   <!-- Preference category on Alarm Settings screen: Set alarm -->
   <!-- Also label for the old Alarms dialog activity displayed on-screen when that activity must be represented to the user. -->
   <string name="set_alarm">Definir alarme</string>
   <!-- Setting labels on Set alarm screen: Vibration on or off -->
   <string name="alarm_vibrate">Vibração</string>
   <!-- Setting labels on Set alarm screen: Repeat -->
-  <string name="alarm_repeat">Repeat</string>
+  <string name="alarm_repeat">Repetir</string>
   <!-- Setting labels on Set alarm screen: Select alarm ringtone  -->
   <string name="alert">Toque do alarme</string>
   <!-- Label on expanded alarm edit view. -->
@@ -59,27 +59,27 @@
   <!-- Label shown when user is setting up non-repeating alarm for tomorrow [CHAR LIMIT=15] -->
   <string name="alarm_tomorrow">Amanhã</string>
   <!-- Label shown when user is setting up non-repeating alarm for later today [CHAR LIMIT=15] -->
-  <string name="alarm_today">Today</string>
+  <string name="alarm_today">Hoje</string>
   <!-- The text shown above the clock when alarm is alerting [CHAR LIMIT=10] -->
-  <string name="alarm_alert_wake_up">Wake up\u0021</string>
+  <string name="alarm_alert_wake_up">Acordar\u0021</string>
   <!-- The text shown as an option to dismiss an alerting alarm [CHAR LIMIT=5] -->
-  <string name="alarm_alert_off_action_text">Off</string>
+  <string name="alarm_alert_off_action_text">Desligar</string>
   <!-- Button labels on the alarm dialog: Dismiss -->
-  <string name="alarm_alert_dismiss_text">Dismiss</string>
+  <string name="alarm_alert_dismiss_text">Dispensar</string>
   <!-- Button labels on the pre-dismiss alarm notifications: Dismiss now -->
-  <string name="alarm_alert_dismiss_now_text">Dismiss Now</string>
+  <string name="alarm_alert_dismiss_now_text">Dispensar Agora</string>
   <!-- Alarm Alert screen: this message is shown after an alarm rung
          unattended for a number of minutes.  It tells the user that
          the alarm has been silenced.-->
-  <string name="alarm_missed_title">Missed alarm</string>
-  <string name="alarm_missed_text"><xliff:g id="alarm_time">%s</xliff:g> - <xliff:g id="alarm_label">%s</xliff:g></string>
+  <string name="alarm_missed_title">Alarme perdido</string>
+  <string name="alarm_missed_text"><xliff:g id="alarm_time">%s</xliff:g>-<xliff:g id="alarm_label">%s</xliff:g></string>
   <!-- The text shown after user snoozed an alerting alarm. The text will be shown
          together with the number of minutes in two separate lines. For example:
              Snoozed
              10 min
          [CHAR LIMIT=10]
     -->
-  <string name="alarm_alert_snoozed_text">Snoozed</string>
+  <string name="alarm_alert_snoozed_text">Soneca</string>
   <!-- The text shown after user snoozed an alerting alarm. The text will be shown
          together with the word 'Snoozed' in two separate lines or example:
              Snoozed
@@ -88,28 +88,28 @@
     -->
   <plurals name="alarm_alert_snooze_duration">
     <!-- Duration for one minute -->
-    <item quantity="one">1 min</item>
+    <item quantity="one">1 minuto</item>
     <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> min</item>
+    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> minutos</item>
   </plurals>
   <!-- The text shown after user dismissed an alerting alarm [CHAR LIMIT=15] -->
-  <string name="alarm_alert_off_text">Alarm off</string>
+  <string name="alarm_alert_off_text">Alarme desligado</string>
   <!-- Button labels on the alarm dialog: Snooze -->
-  <string name="alarm_alert_snooze_text">Snooze</string>
+  <string name="alarm_alert_snooze_text">Soneca</string>
   <!-- Toast that appears after Alarm is snoozed from the Alarm
          dialog. Says the alarm will snooze for xxx minutes.  -->
   <plurals name="alarm_alert_snooze_set">
     <!-- Duration for one minute -->
-    <item quantity="one">Snoozing for 1 minute.</item>
+    <item quantity="one">Soneca por 1 minuto.</item>
     <!-- Duration for more than one minute -->
-    <item quantity="other">Snoozing for <xliff:g id="minutes">%d</xliff:g> minutes.</item>
+    <item quantity="other">Soneca por <xliff:g id="minutes">%d</xliff:g> minutos.</item>
   </plurals>
   <!-- Text to appear inside a notification while an alarm is snoozing. -->
-  <string name="alarm_alert_snooze_until">Snoozing until <xliff:g id="time">%s</xliff:g></string>
+  <string name="alarm_alert_snooze_until">Soneca até <xliff:g id="time">%s</xliff:g></string>
   <!-- Text to appear in the notification title while an alarm is about to go off. -->
-  <string name="alarm_alert_predismiss_title">Upcoming alarm</string>
+  <string name="alarm_alert_predismiss_title">Próximo alarme</string>
   <!-- Text to appear in when trying to view a missed alarm that has been deleted -->
-  <string name="missed_alarm_has_been_deleted">Your missed alarm has been deleted</string>
+  <string name="missed_alarm_has_been_deleted">O alarme perdido foi excluído</string>
   <!-- 0: nothing
          1: days
          2:      hours
@@ -129,13 +129,13 @@
   <!-- Alarm confirmation toast: Describes how long from now until
          alarm fires -->
   <string-array name="alarm_set">
-    <item>Alarm set for less than 1 minute from now.</item>
-    <item>Alarm set for <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> from now.</item>
-    <item>Alarm set for <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> from now.</item>
+    <item>Alarme definido para menos de 1 minuto a partir de agora.</item>
+    <item>Alarme definido para <xliff:g id="DAYS" example="2 dias">%1$s</xliff:g> a partir de agora.</item>
+    <item>Alarme definido para <xliff:g id="HOURS" exemplo="2 horas">%2$s </xliff:g> a partir de agora.</item>
     <item>Alarm set for <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> and <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> from now.</item>
     <item>Alarm set for <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> from now.</item>
     <item>Alarm set for <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> and <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> from now.</item>
-    <item>Alarm set for <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> and <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> from now.</item>
+    <item>Alarme definido para <xliff:g id="DAYS" example="2 dias">%2$s </xliff:g> e <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g>a partir de agora.</item>
     <item>Alarm set for <xliff:g id="DAYS" example="2 days">%1$s</xliff:g>, <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g>, and <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> from now.</item>
   </string-array>
   <!-- Alarm confirmation toast: singular day -->

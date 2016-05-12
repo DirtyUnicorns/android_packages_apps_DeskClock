@@ -121,10 +121,10 @@
     -->
   <!-- Timer notification: how long from now until timer goes off. -->
   <string-array name="timer_notifications">
-    <item>Less than a minute remaining</item>
-    <item><xliff:g id="HOURS" example="2 hours">%1$s</xliff:g> remaining</item>
-    <item><xliff:g id="MINUTES" example="2 minutes">%2$s</xliff:g> remaining</item>
-    <item><xliff:g id="HOURS" example="2 hours">%1$s</xliff:g> <xliff:g id="MINUTES" example="2 minutes">%2$s</xliff:g> remaining</item>
+    <item>Menos de um minuto restante</item>
+    <item><xliff:g id="HOURS" example="2 hhoras">%1$s</xliff:g> restante</item>
+    <item><xliff:g id="MINUTES" example="2 minutos">%2$s</xliff:g>restantes</item>
+    <item><xliff:g id="HOURS" example="2 horas">%1$s</xliff:g><xliff:g id="MINUTES" example="2 minutos">%2$s</xliff:g> restantes</item>
   </string-array>
   <!-- Alarm confirmation toast: Describes how long from now until
          alarm fires -->
@@ -136,12 +136,12 @@
     <item>Alarm set for <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> from now.</item>
     <item>Alarm set for <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> and <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> from now.</item>
     <item>Alarme definido para <xliff:g id="DAYS" example="2 dias">%2$s </xliff:g> e <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g>a partir de agora.</item>
-    <item>Alarm set for <xliff:g id="DAYS" example="2 days">%1$s</xliff:g>, <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g>, and <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> from now.</item>
+    <item>Alarme definido para <xliff:g id="DAYS" example="2 dias">%1$s</xliff:g><xliff:g id="HOURS" example="2 horas">%2$s</xliff:g>, e <xliff:g id="MINUTES" example="2 minutos">%3$s</xliff:g> a partir de agora.</item>
   </string-array>
   <!-- Alarm confirmation toast: singular day -->
-  <string name="day">"1 day"</string>
+  <string name="day">"1 dia"</string>
   <!-- Alarm confirmation toast: plural days -->
-  <string name="days">"<xliff:g id="days">%s</xliff:g> days"</string>
+  <string name="days">"<xliff:g id="days">%s</xliff:g>dias"</string>
   <!-- Alarm confirmation toast: singular hour -->
   <string name="hour">1 hour</string>
   <!-- Alarm confirmation toast: plural hours -->
@@ -153,11 +153,11 @@
   <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: special case for when
          the alarm is set to repeat every day -->
-  <string name="every_day">Every day</string>
+  <string name="every_day">Todos os dias</string>
   <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: special case for when
          the alarm is set to never repeat -->
-  <string name="never">Never</string>
+  <string name="never">Nunca</string>
   <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: concatenate days with
          this character, i.e. "Mon, Tue, Wed" -->

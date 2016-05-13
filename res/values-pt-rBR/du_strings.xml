@@ -64,7 +64,7 @@
   <string name="entry_thirty_secs">30 segundos</string>
   <string name="pre_alarm_dismiss_all_summary">Dispensar pré-alarme ativo também dispensará o alarme principal</string>
   <string name="pre_alarm_dismiss_all_title">Dispensar todos</string>
-  <string name="fallback_ringtone">Default</string>
+  <string name="fallback_ringtone">Padrão</string>
   <string name="ringtone_unknown">Unknown ringtone</string>
   <string name="entry_one_minute">1 minute</string>
   <string name="entry_three_minute">3 minutes</string>

@@ -133,7 +133,7 @@
     <item>Alarme definido para <xliff:g id="DAYS" example="2 dias">%1$s</xliff:g> a partir de agora.</item>
     <item>Alarme definido para <xliff:g id="HOURS" exemplo="2 horas">%2$s </xliff:g> a partir de agora.</item>
     <item>Alarme definido para <xliff:g id="DAYS" example="2 dias">%1$s </xliff:g> e <xliff:g id="HOURS" example="2 horas">%2$s </xliff:g> a partir de agora.</item>
-    <item>Alarm set for <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> from now.</item>
+    <item>Alarme definido para <xliff:g id="MINUTES" example="2 minutos">%3$s</xliff:g> a partir de agora.</item>
     <item>Alarm set for <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> and <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> from now.</item>
     <item>Alarme definido para <xliff:g id="DAYS" example="2 dias">%2$s </xliff:g> e <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g>a partir de agora.</item>
     <item>Alarme definido para <xliff:g id="DAYS" example="2 dias">%1$s</xliff:g><xliff:g id="HOURS" example="2 horas">%2$s</xliff:g>, e <xliff:g id="MINUTES" example="2 minutos">%3$s</xliff:g> a partir de agora.</item>

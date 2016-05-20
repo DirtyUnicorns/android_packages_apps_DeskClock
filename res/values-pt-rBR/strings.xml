@@ -134,7 +134,7 @@
     <item>Alarme definido para <xliff:g id="HOURS" exemplo="2 horas">%2$s </xliff:g> a partir de agora.</item>
     <item>Alarme definido para <xliff:g id="DAYS" example="2 dias">%1$s </xliff:g> e <xliff:g id="HOURS" example="2 horas">%2$s </xliff:g> a partir de agora.</item>
     <item>Alarme definido para <xliff:g id="MINUTES" example="2 minutos">%3$s</xliff:g> a partir de agora.</item>
-    <item>Alarm set for <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> and <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> from now.</item>
+    <item>Alarme definido para <xliff:g id="DAYS" example="2 dias">%1$s </xliff:g> e <xliff:g id="MINUTES" example="2 minutos">%3$s </xliff:g> a partir de agora.</item>
     <item>Alarme definido para <xliff:g id="DAYS" example="2 dias">%2$s </xliff:g> e <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g>a partir de agora.</item>
     <item>Alarme definido para <xliff:g id="DAYS" example="2 dias">%1$s</xliff:g><xliff:g id="HOURS" example="2 horas">%2$s</xliff:g>, e <xliff:g id="MINUTES" example="2 minutos">%3$s</xliff:g> a partir de agora.</item>
   </string-array>
@@ -143,13 +143,13 @@
   <!-- Alarm confirmation toast: plural days -->
   <string name="days">"<xliff:g id="days">%s</xliff:g>dias"</string>
   <!-- Alarm confirmation toast: singular hour -->
-  <string name="hour">1 hour</string>
+  <string name="hour">1 hora</string>
   <!-- Alarm confirmation toast: plural hours -->
-  <string name="hours"><xliff:g id="hours">%s</xliff:g> hours</string>
+  <string name="hours"><xliff:g id="hours">%s </xliff:g> horas</string>
   <!-- Alarm confirmation toast: singular minute  -->
-  <string name="minute">"1 minute"</string>
+  <string name="minute">"Um minuto"</string>
   <!-- Alarm confirmation toast: plural minutes  -->
-  <string name="minutes">"<xliff:g id="minutes">%s</xliff:g> minutes"</string>
+  <string name="minutes">"<xliff:g id="minutes">%s</xliff:g> minutos"</string>
   <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: special case for when
          the alarm is set to repeat every day -->
@@ -164,53 +164,53 @@
   <string name="day_concat">", "</string>
   <!-- Appears at the top of the Clock Picker screen: Tell user to
          select a clock to display -->
-  <string name="clock_instructions">Choose a clock</string>
+  <string name="clock_instructions">Escolha um relógio</string>
   <!-- Label for analog clock gadget displayed on-screen when that gadget is represented to the user. -->
-  <string name="analog_gadget">Analog clock</string>
+  <string name="analog_gadget">Relógio analógico</string>
   <!-- Help activity name -->
-  <string name="help">help</string>
+  <string name="help">ajuda</string>
   <!-- Settings activity name -->
   <!-- Label for the Settings activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="settings">Settings</string>
+  <string name="settings">Configurar</string>
   <!-- Setting title for changing the snooze duration. -->
-  <string name="snooze_duration_title">Snooze length</string>
+  <string name="snooze_duration_title">Tempo de soneca</string>
   <plurals name="snooze_duration">
     <!-- Duration for one minute -->
-    <item quantity="one">1 minute</item>
+    <item quantity="one">Um minuto</item>
     <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> minutes</item>
+    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> minutos</item>
   </plurals>
   <plurals name="snooze_picker_label">
     <!-- Duration for one minute -->
-    <item quantity="one">minute</item>
+    <item quantity="one">minuto</item>
     <!-- Duration for more than one minute -->
-    <item quantity="other">minutes</item>
+    <item quantity="other">minutos</item>
   </plurals>
   <!-- Auto silence preference title -->
-  <string name="auto_silence_title">Silence after</string>
+  <string name="auto_silence_title">Silêncio após</string>
   <!-- Auto silence summary string set based on the preference value. -->
-  <string name="auto_silence_summary"><xliff:g id="minutes">%d</xliff:g> minutes</string>
+  <string name="auto_silence_summary"><xliff:g id="minutes">%d</xliff:g> minutos</string>
   <!-- Auto silence summary when turned off -->
-  <string name="auto_silence_never">Never</string>
+  <string name="auto_silence_never">Nunca</string>
   <!-- Entries listed in the ListPreference when invoking the auto silence
          preference. -->
   <string-array name="auto_silence_entries">
-    <item>1 minute</item>
-    <item>5 minutes</item>
-    <item>10 minutes</item>
-    <item>15 minutes</item>
-    <item>20 minutes</item>
-    <item>25 minutes</item>
-    <item>Never</item>
+    <item>1 minuto</item>
+    <item>5 minutos</item>
+    <item>10 minutos</item>
+    <item>15 minutos</item>
+    <item>20 minutos</item>
+    <item>25 minutos</item>
+    <item>Nunca</item>
   </string-array>
   <!-- Values that are retrieved from the ListPreference. These must match
          the auto_silence_entries above. -->
   <!-- Done button when editing an alarm. -->
-  <string name="done">Done</string>
+  <string name="done">Pronto</string>
   <!-- Revert button when editing an alarm. -->
-  <string name="revert">Revert</string>
+  <string name="revert">Reverter</string>
   <!-- Delete button when editing an alarm. -->
-  <string name="delete">Delete</string>
+  <string name="delete">Excluir</string>
   <!-- Setting title for changing the alarm volume. -->
   <string name="alarm_volume_title">Alarm volume</string>
   <!-- Summary for the alarm preference when silent is chosen. -->
@@ -218,28 +218,28 @@
   <!-- Text to display in the small text of the notification -->
   <string name="alarm_notify_text">Snooze or dismiss alarm.</string>
   <!-- Text to display in the notification ticker and label -->
-  <string name="alarm_notify_snooze_label"><xliff:g id="label">%s</xliff:g> (snoozed)</string>
+  <string name="alarm_notify_snooze_label"><xliff:g id="label">%s </xliff:g> (soneca)</string>
   <!-- Text to display in the notification when the alarm has been snoozed -->
-  <string name="alarm_notify_snooze_text">Alarm set for <xliff:g id="time">%s</xliff:g>. Touch to cancel.</string>
+  <string name="alarm_notify_snooze_text">Alarme definido para <xliff:g id="time">%s </xliff:g>. Toque para cancelar.</string>
   <!-- Title of the setting to change hardware button behavior. This string
          should be changed for each piece of hardware. [CHAR LIMIT=20] -->
-  <string name="volume_button_setting_title">Volume buttons</string>
+  <string name="volume_button_setting_title">Botões de volume</string>
   <!-- Dialog title of the volume and power setting. -->
-  <string name="volume_button_dialog_title">Button effect</string>
+  <string name="volume_button_dialog_title">Efeito do botão</string>
   <!-- Entries listed in the setting for the side-button action. -->
   <string-array name="volume_button_setting_entries">
-    <item>Snooze</item>
+    <item>Soneca</item>
     <item>Dismiss</item>
     <item>Do nothing</item>
   </string-array>
   <!-- Values for the side-button setting. -->
   <!-- Title of the ringtone setting. -->
-  <string name="default_ringtone_setting_title">Set default ringtone</string>
+  <string name="default_ringtone_setting_title">Definir toque padrão</string>
   <!-- Accessibility labels for Clock activity buttons -->
-  <string name="alarm_button_description">Alarms</string>
-  <string name="gallery_button_description">Gallery</string>
-  <string name="music_button_description">Music</string>
-  <string name="nightmode_button_description">Dim</string>
+  <string name="alarm_button_description">Alarmes</string>
+  <string name="gallery_button_description">Galeria</string>
+  <string name="music_button_description">Música</string>
+  <string name="nightmode_button_description">Escurecer</string>
   <string name="home_button_description">Launcher</string>
   <string name="desk_clock_button_description">Clock display</string>
   <!-- Accessibility labels for alarm buttons -->
@@ -250,16 +250,16 @@
   <!-- What to show the user if the weather widget exists but fails to
          respond. This is a sign of an error; if the weather widget is not
          present on the device, we show nothing at all. -->
-  <string name="weather_fetch_failure">Weather information isn\'t available right now.</string>
+  <string name="weather_fetch_failure">Informações meteorológicas atualmente indisponíveis.</string>
   <!-- A description for the DeskClock alarm sound playback service.
          [CHAR LIMIT=NONE] -->
-  <string name="alarm_klaxon_service_desc">Sound playback service for alarms set in Clock.</string>
+  <string name="alarm_klaxon_service_desc">Serviço de reprodução de som para alarmes definidos no Despertador.</string>
   <!-- String displayed as the alert summary while loading the alert name from
          the media player. [CHAR LIMIT=NONE] -->
-  <string name="loading_ringtone">Loading ringtone\u2026</string>
+  <string name="loading_ringtone">Carregando toque\u2026</string>
   <!-- A description for the DeskClock timer sound playback service.
          [CHAR LIMIT=NONE] -->
-  <string name="timer_ring_service_desc">Sound playback service for timers set in Clock.</string>
+  <string name="timer_ring_service_desc">Serviço de reprodução de som para temporizadores definidos no Relógio.</string>
   <!-- Label on the main screen control used to set alarm [CHAR LIMIT=30]-->
   <string name="control_set_alarm">Set alarm</string>
   <!-- Label on the main screen control used to set alarm when there is already an existing alarm [CHAR LIMIT=30]-->
@@ -271,14 +271,14 @@
   <!-- Describes the purpose of the tab button which which switches the activity to the Clock page -->
   <string name="menu_clock">Clock</string>
   <!-- Describes the purpose of the tab button which which switches the activity to the Stopwatch page -->
-  <string name="menu_stopwatch">Stopwatch</string>
+  <string name="menu_stopwatch">Cronómetro</string>
   <!-- Clock view buttons strings-->
   <!-- Describes the purpose of the button to start the activity to add/edit/delete alarms -->
-  <string name="button_alarms">Add alarm</string>
+  <string name="button_alarms">Adicionar alarme</string>
   <!-- Describes the purpose of the button which provides a list of cities for the world clock settings -->
-  <string name="button_cities">Cities</string>
+  <string name="button_cities">Cidades</string>
   <!-- Describes the purpose of the button which pops up a menu of setting choices -->
-  <string name="button_menu">More options</string>
+  <string name="button_menu">Mais opções</string>
   <!-- Menu item on most screens to get to more settings -->
   <string name="menu_item_settings">Settings</string>
   <!-- Menu item on most screens to get to the help information -->
@@ -288,16 +288,16 @@
   <!-- Menu item on Cities screen to sort by GMT offset -->
   <string name="menu_item_sort_by_gmt_offset">Sort by time</string>
   <!-- Menu item on Cities screen to sort by alphabetical order -->
-  <string name="menu_item_sort_by_name">Sort by name</string>
+  <string name="menu_item_sort_by_name">Classificar por nome</string>
   <!-- Label for selected cities in Cities list view -->
-  <string name="selected_cities_label">Selected Cities</string>
+  <string name="selected_cities_label">Cidades selecionadas</string>
   <!-- Stop Watch strings -->
   <!-- Describes the purpose of the button to resume running a stopwatch -->
-  <string name="sw_resume_button">Resume</string>
+  <string name="sw_resume_button">Retomar</string>
   <!-- Describes the purpose of the button to begin running a stopwatch -->
-  <string name="sw_start_button">Start</string>
+  <string name="sw_start_button">Início</string>
   <!-- Describes the purpose of the button to stop a stopwatch. -->
-  <string name="sw_stop_button">Stop</string>
+  <string name="sw_stop_button">Interromper</string>
   <!-- Describes the purpose of the button to pause a stopwatch. -->
   <string name="sw_pause_button">Pause</string>
   <!-- Describes the purpose of the button to record current the stopwatch value into the4 collection of lap times. -->

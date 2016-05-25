@@ -72,7 +72,7 @@
          unattended for a number of minutes.  It tells the user that
          the alarm has been silenced.-->
   <string name="alarm_missed_title">Alarm gemist</string>
-  <string name="alarm_missed_text"><xliff:g id="ALARM_TIME">%s</xliff:g> - <xliff:g id="ALARM_LABEL">%s</xliff:g></string>
+  <string name="alarm_missed_text"><xliff:g id="alarm_time">%s</xliff:g> - <xliff:g id="alarm_label">%s</xliff:g></string>
   <!-- The text shown after user snoozed an alerting alarm. The text will be shown
          together with the number of minutes in two separate lines. For example:
              Snoozed
@@ -299,7 +299,7 @@
   <!-- Describes the purpose of the button to stop a stopwatch. -->
   <string name="sw_stop_button">Stoppen</string>
   <!-- Describes the purpose of the button to pause a stopwatch. -->
-  <string name="sw_pause_button">Pause</string>
+  <string name="sw_pause_button">Pauzeer</string>
   <!-- Describes the purpose of the button to record current the stopwatch value into the4 collection of lap times. -->
   <string name="sw_lap_button">Ronde</string>
   <!-- Describes the purpose of the button to return the stopwatch to zero and remove the lap times. -->
@@ -418,7 +418,7 @@
   <!-- Textual content of the button to discard the current dialog values and close the dialog -->
   <string name="time_picker_cancel">Annuleren</string>
   <!-- Textual content of the button to update an alarm with the current dialog values -->
-  <string name="time_picker_set">OK</string>
+  <string name="time_picker_set">Oké</string>
   <string name="time_picker_time_seperator">:</string>
   <!--  place holder for am/pm label when it is not set -->
   <string name="time_picker_ampm_label">--</string>

@@ -35,7 +35,7 @@
   <string name="entry_ten_count">10 раз</string>
   <string name="pick_media">Выбрать аудио</string>
   <string name="ringtone_disabled">Отключен</string>
-  <string name="media_start">Send audio start</string>
+  <string name="media_start">Установить начало звука</string>
   <string name="alarm_alert_prealarm_dismiss_title">Предварительный сигнал отключен</string>
   <string name="prealarm_time_select">Время предварительного сигнала:</string>
   <string name="alarm_title">Будильник</string>

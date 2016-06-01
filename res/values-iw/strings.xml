@@ -89,6 +89,8 @@
   <plurals name="alarm_alert_snooze_duration">
     <!-- Duration for one minute -->
     <item quantity="one">דקה אחת</item>
+    <item quantity="two"><xliff:g id="NUMBER">%d</xliff:g> דקות</item>
+    <item quantity="many"><xliff:g id="NUMBER">%d</xliff:g> דקות</item>
     <!-- Duration for more than one minute -->
     <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> דקות</item>
   </plurals>
@@ -101,6 +103,8 @@
   <plurals name="alarm_alert_snooze_set">
     <!-- Duration for one minute -->
     <item quantity="one">עובר למצב נודניק למשך דקה.</item>
+    <item quantity="two">עובר למצב נודניק למשך <xliff:g id="MINUTES">%d</xliff:g> דקות.</item>
+    <item quantity="many">עובר למצב נודניק למשך <xliff:g id="MINUTES">%d</xliff:g> דקות.</item>
     <!-- Duration for more than one minute -->
     <item quantity="other">עובר למצב נודניק למשך <xliff:g id="MINUTES">%d</xliff:g> דקות.</item>
   </plurals>
@@ -177,12 +181,16 @@
   <plurals name="snooze_duration">
     <!-- Duration for one minute -->
     <item quantity="one">דקה אחת</item>
+    <item quantity="two"><xliff:g id="NUMBER">%d</xliff:g> דקות</item>
+    <item quantity="many"><xliff:g id="NUMBER">%d</xliff:g> דקות</item>
     <!-- Duration for more than one minute -->
     <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> דקות</item>
   </plurals>
   <plurals name="snooze_picker_label">
     <!-- Duration for one minute -->
     <item quantity="one">דקה</item>
+    <item quantity="two">דקות</item>
+    <item quantity="many">דקות</item>
     <!-- Duration for more than one minute -->
     <item quantity="other">דקות</item>
   </plurals>
@@ -331,18 +339,24 @@
   <plurals name="Nhours_description">
     <!-- 1 hour -->
     <item quantity="one">שעה אחת</item>
+    <item quantity="two"><xliff:g id="NUMBER">%d</xliff:g> שעות</item>
+    <item quantity="many"><xliff:g id="NUMBER">%d</xliff:g> שעות</item>
     <!-- more -->
     <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> שעות</item>
   </plurals>
   <plurals name="Nminutes_description">
     <!-- 1 minute -->
     <item quantity="one">דקה אחת</item>
+    <item quantity="two"><xliff:g id="NUMBER">%d</xliff:g> דקות</item>
+    <item quantity="many"><xliff:g id="NUMBER">%d</xliff:g> דקות</item>
     <!-- more -->
     <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> דקות</item>
   </plurals>
   <plurals name="Nseconds_description">
     <!-- 1 second -->
     <item quantity="one">שנייה אחת</item>
+    <item quantity="two"><xliff:g id="NUMBER">%d</xliff:g> שניות</item>
+    <item quantity="many"><xliff:g id="NUMBER">%d</xliff:g> שניות</item>
     <!-- more -->
     <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> שניות</item>
   </plurals>
@@ -387,6 +401,8 @@
   <plurals name="timers_num">
     <!-- 1 timer -->
     <item quantity="one">דקה אחת</item>
+    <item quantity="two"><xliff:g id="NUMBER">%d</xliff:g> טיימרים</item>
+    <item quantity="many"><xliff:g id="NUMBER">%d</xliff:g> טיימרים</item>
     <!-- more -->
     <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> טיימרים</item>
   </plurals>
@@ -568,6 +584,8 @@
   <plurals name="alarm_delete_confirmation">
     <!-- Confirmation for one alarm -->
     <item quantity="one">האם למחוק את ההתראה שנבחרה?</item>
+    <item quantity="two">האם למחוק את ההתראות שנבחרו?</item>
+    <item quantity="many">האם למחוק את ההתראות שנבחרו?</item>
     <!-- Confirmation more than one alarm  -->
     <item quantity="other">האם למחוק את ההתראות שנבחרו?</item>
   </plurals>

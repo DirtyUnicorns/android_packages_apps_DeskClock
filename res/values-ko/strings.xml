@@ -236,7 +236,7 @@
   <string name="gallery_button_description">갤러리</string>
   <string name="music_button_description">음악</string>
   <string name="nightmode_button_description">낮추기</string>
-  <string name="home_button_description">Launcher</string>
+  <string name="home_button_description">런처</string>
   <string name="desk_clock_button_description">시계 디스플레이</string>
   <!-- Accessibility labels for alarm buttons -->
   <string name="label_description">라벨</string>
@@ -295,7 +295,7 @@
   <!-- Describes the purpose of the button to stop a stopwatch. -->
   <string name="sw_stop_button">중지</string>
   <!-- Describes the purpose of the button to pause a stopwatch. -->
-  <string name="sw_pause_button">Pause</string>
+  <string name="sw_pause_button">일시 중지</string>
   <!-- Describes the purpose of the button to record current the stopwatch value into the4 collection of lap times. -->
   <string name="sw_lap_button">랩 타임</string>
   <!-- Describes the purpose of the button to return the stopwatch to zero and remove the lap times. -->

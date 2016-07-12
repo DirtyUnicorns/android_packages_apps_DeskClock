@@ -299,7 +299,7 @@
   <!-- Describes the purpose of the button to stop a stopwatch. -->
   <string name="sw_stop_button">Durdur</string>
   <!-- Describes the purpose of the button to pause a stopwatch. -->
-  <string name="sw_pause_button">Pause</string>
+  <string name="sw_pause_button">Duraklat</string>
   <!-- Describes the purpose of the button to record current the stopwatch value into the4 collection of lap times. -->
   <string name="sw_lap_button">Tur</string>
   <!-- Describes the purpose of the button to return the stopwatch to zero and remove the lap times. -->

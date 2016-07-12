@@ -58,20 +58,20 @@
   <string name="play_error_title">Error playing alarm</string>
   <string name="random_mode_enable_title">Shuffle</string>
   <string name="volume_increase_speed_title">Volume increase interval</string>
-  <string name="entry_five_secs">5 seconds</string>
-  <string name="entry_ten_secs">10 seconds</string>
-  <string name="entry_fifteen_secs">15 seconds</string>
-  <string name="entry_thirty_secs">30 seconds</string>
+  <string name="entry_five_secs">5 sekuntia</string>
+  <string name="entry_ten_secs">10 sekuntia</string>
+  <string name="entry_fifteen_secs">15 sekuntia</string>
+  <string name="entry_thirty_secs">30 sekuntia</string>
   <string name="pre_alarm_dismiss_all_summary">Dismissing active pre-alarm will also dismiss main alarm</string>
   <string name="pre_alarm_dismiss_all_title">Dismiss all</string>
   <string name="fallback_ringtone">Default</string>
   <string name="ringtone_unknown">Unknown ringtone</string>
-  <string name="entry_one_minute">1 minute</string>
-  <string name="entry_three_minute">3 minutes</string>
-  <string name="entry_five_minute">5 minutes</string>
-  <string name="entry_ten_minute">10 minutes</string>
-  <string name="entry_fifteen_minute">15 minutes</string>
-  <string name="entry_thirty_minute">30 minutes</string>
+  <string name="entry_one_minute">1 minuutti</string>
+  <string name="entry_three_minute">3 minuuttia</string>
+  <string name="entry_five_minute">5 minuuttia</string>
+  <string name="entry_ten_minute">10 minuuttia</string>
+  <string name="entry_fifteen_minute">15 minuuttia</string>
+  <string name="entry_thirty_minute">30 minuuttia</string>
   <string name="prealarm_default_label">Pre-alarm</string>
   <string name="fullscreen_alarm_settings">Full screen alarms</string>
   <string name="fullscreen_alarm_title">Full screen alarms</string>
@@ -90,10 +90,10 @@
   <string name="cities_add_gps_not_available">GPS not available</string>
   <string name="cities_add_already_exists">The city already exists in the database</string>
   <string name="cities_add_city_failed">Can\'t create the city</string>
-  <string name="cities_delete_city_title">Delete city</string>
-  <string name="cities_delete_city_msg">Do you want to delete <xliff:g id="city">%s</xliff:g>?</string>
-  <string name="cities_delete_city_failed">Can\'t delete the city</string>
-  <string name="timer_settings">Timer</string>
+  <string name="cities_delete_city_title">Poista kaupunki</string>
+  <string name="cities_delete_city_msg">Haluatko varmasti poistaa kaupungin <xliff:g id="city">%s</xliff:g>?</string>
+  <string name="cities_delete_city_failed">Ei voida poistaa kaupunkia</string>
+  <string name="timer_settings">Ajastin</string>
   <string name="timer_alarm_title">Ringtone</string>
   <string name="timer_alarm_custom_title">Custom timer ringtone</string>
   <string name="week_start_title">Week starts on</string>

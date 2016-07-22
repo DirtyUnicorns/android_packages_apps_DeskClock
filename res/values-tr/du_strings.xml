@@ -75,7 +75,7 @@
   <string name="prealarm_default_label">Ön alarm</string>
   <string name="fullscreen_alarm_settings">Tam ekran alarm</string>
   <string name="fullscreen_alarm_title">Tam ekran alarm</string>
-  <string name="fullscreen_alarm_summary">Bildirim yerine tam ekran alarm kullanın</string>
+  <string name="fullscreen_alarm_summary">Bildirim pencereleri yerine tam ekran alarmları kullanın</string>
   <string name="take_persistent_grant_uri_permission_failed_msg">Zil sesi için kalıcı izin alınamadı</string>
   <string name="notification_settings">Bildirimler</string>
   <!-- User-defined cities -->

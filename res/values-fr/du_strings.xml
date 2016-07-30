@@ -20,7 +20,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Setting title for the flip action setting. -->
-  <string name="flip_action_title">Action par retournement</string>
+  <string name="flip_action_title">Action au retournement</string>
   <string name="flip_action_dialog_title">Action lorsque l\appareil est retourné</string>
   <!-- Setting title for the shake action setting. -->
   <string name="shake_action_title">Action quand secoué</string>

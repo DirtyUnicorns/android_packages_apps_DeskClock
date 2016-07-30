@@ -265,7 +265,7 @@
   <!-- Label on the main screen control used to set alarm when there is already an existing alarm [CHAR LIMIT=30]-->
   <!--  ActionBar strings -->
   <!-- Describes the purpose of the tab button which which switches the activity to the Alarm page -->
-  <string name="menu_alarm">Larm</string>
+  <string name="menu_alarm">Alarm</string>
   <!-- Describes the purpose of the tab button which which switches the activity to the Timer page -->
   <string name="menu_timer">Timer</string>
   <!-- Describes the purpose of the tab button which which switches the activity to the Clock page -->
@@ -418,7 +418,7 @@
   <!-- Textual content of the button to discard the current dialog values and close the dialog -->
   <string name="time_picker_cancel">Avbryt</string>
   <!-- Textual content of the button to update an alarm with the current dialog values -->
-  <string name="time_picker_set">Ok</string>
+  <string name="time_picker_set">OK</string>
   <string name="time_picker_time_seperator">:</string>
   <!--  place holder for am/pm label when it is not set -->
   <string name="time_picker_ampm_label">--</string>
@@ -516,7 +516,7 @@
   </string-array>
   <!-- Choices for timezones, must be kept in sync with timezone_values. -->
   <!-- Header in the preferences settings for the section pertaining to alarms -->
-  <string name="alarm_settings">Larm</string>
+  <string name="alarm_settings">Alarm</string>
   <!-- Describes the running service for the stopwatch -->
   <string name="stopwatch_service_desc">Stoppurstjänst som kör meddelandet.</string>
   <!-- Desription for the stopped stop watch -->

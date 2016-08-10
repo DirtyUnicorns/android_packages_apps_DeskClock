@@ -299,7 +299,7 @@
   <!-- Describes the purpose of the button to stop a stopwatch. -->
   <string name="sw_stop_button">Parar</string>
   <!-- Describes the purpose of the button to pause a stopwatch. -->
-  <string name="sw_pause_button">Pause</string>
+  <string name="sw_pause_button">Pausar</string>
   <!-- Describes the purpose of the button to record current the stopwatch value into the4 collection of lap times. -->
   <string name="sw_lap_button">Volta</string>
   <!-- Describes the purpose of the button to return the stopwatch to zero and remove the lap times. -->
@@ -418,7 +418,7 @@
   <!-- Textual content of the button to discard the current dialog values and close the dialog -->
   <string name="time_picker_cancel">Cancelar</string>
   <!-- Textual content of the button to update an alarm with the current dialog values -->
-  <string name="time_picker_set">OK</string>
+  <string name="time_picker_set">Ok</string>
   <string name="time_picker_time_seperator">:</string>
   <!--  place holder for am/pm label when it is not set -->
   <string name="time_picker_ampm_label">--</string>
@@ -508,7 +508,7 @@
     <item>"Sidney, Camberra"</item>
     <item>"Vladivostoque"</item>
     <item>"Guame"</item>
-    <item>"Magadan"</item>
+    <item>"MagadanmRingtone personalizado temporizador"</item>
     <item>"Auckland"</item>
     <item>"Fiji"</item>
     <item>"Tonga"</item>

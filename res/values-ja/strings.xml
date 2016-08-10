@@ -304,11 +304,11 @@
          Also used as title for chooser when sharing stopwatch results. -->
   <string name="sw_share_button">共有</string>
   <!-- Abbreviation for temporal hours [CHAR LIMIT=1] -->
-  <string name="hours_label">h</string>
+  <string name="hours_label">時</string>
   <!-- Abbreviation for temporal minutes [CHAR LIMIT=1] -->
-  <string name="minutes_label">m</string>
+  <string name="minutes_label">分</string>
   <!-- Abbreviation for temporal seconds [CHAR LIMIT=1] -->
-  <string name="seconds_label">s</string>
+  <string name="seconds_label">秒</string>
   <!-- Accessibility strings -->
   <string name="hours_label_description">時間</string>
   <string name="minutes_label_description">分</string>

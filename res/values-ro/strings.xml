@@ -88,10 +88,10 @@
     -->
   <plurals name="alarm_alert_snooze_duration">
     <!-- Duration for one minute -->
-    <item quantity="one">1 min.</item>
-    <item quantity="few"><xliff:g id="NUMBER">%d</xliff:g> min.</item>
+    <item quantity="one">1 min</item>
+    <item quantity="few">1 min</item>
     <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> min</item>
+    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> de minute</item>
   </plurals>
   <!-- The text shown after user dismissed an alerting alarm [CHAR LIMIT=15] -->
   <string name="alarm_alert_off_text">Alarmă opr.</string>
@@ -104,7 +104,7 @@
     <item quantity="one">Alarmă amânată 1 minut.</item>
     <item quantity="few">Alarmă amânată <xliff:g id="MINUTES">%d</xliff:g> (de) minute.</item>
     <!-- Duration for more than one minute -->
-    <item quantity="other">Snoozing for <xliff:g id="minutes">%d</xliff:g> minutes.</item>
+    <item quantity="other">Alarmă amânată <xliff:g id="MINUTES">%d</xliff:g> (de) minute.</item>
   </plurals>
   <!-- Text to appear inside a notification while an alarm is snoozing. -->
   <string name="alarm_alert_snooze_until">Se amână până la <xliff:g id="TIME">%s</xliff:g></string>
@@ -181,14 +181,14 @@
     <item quantity="one">1 minut</item>
     <item quantity="few"><xliff:g id="NUMBER">%d</xliff:g> (de) minute</item>
     <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> minutes</item>
+    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> (de) minute</item>
   </plurals>
   <plurals name="snooze_picker_label">
     <!-- Duration for one minute -->
-    <item quantity="one">minut</item>
+    <item quantity="one">minute</item>
     <item quantity="few">minute</item>
     <!-- Duration for more than one minute -->
-    <item quantity="other">minutes</item>
+    <item quantity="other">minute</item>
   </plurals>
   <!-- Auto silence preference title -->
   <string name="auto_silence_title">Dezactivare după</string>
@@ -303,7 +303,7 @@
   <!-- Describes the purpose of the button to stop a stopwatch. -->
   <string name="sw_stop_button">Opriţi</string>
   <!-- Describes the purpose of the button to pause a stopwatch. -->
-  <string name="sw_pause_button">Pause</string>
+  <string name="sw_pause_button">Pauză</string>
   <!-- Describes the purpose of the button to record current the stopwatch value into the4 collection of lap times. -->
   <string name="sw_lap_button">Circuit</string>
   <!-- Describes the purpose of the button to return the stopwatch to zero and remove the lap times. -->
@@ -337,27 +337,27 @@
     <item quantity="one">1 oră</item>
     <item quantity="few"><xliff:g id="NUMBER">%d</xliff:g> ore</item>
     <!-- more -->
-    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> hours</item>
+    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> de ore</item>
   </plurals>
   <plurals name="Nminutes_description">
     <!-- 1 minute -->
     <item quantity="one">1 minut</item>
     <item quantity="few"><xliff:g id="NUMBER">%d</xliff:g> (de) minute</item>
     <!-- more -->
-    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> minutes</item>
+    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> (de) minute</item>
   </plurals>
   <plurals name="Nseconds_description">
     <!-- 1 second -->
     <item quantity="one">1 secundă</item>
     <item quantity="few"><xliff:g id="NUMBER">%d</xliff:g> (de) secunde</item>
     <!-- more -->
-    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> seconds</item>
+    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> (de) secunde</item>
   </plurals>
   <!-- timer strings -->
   <!-- Describes the purpose of the button to add a new timer -->
   <string name="timer_add_timer">Adăugaţi un temporizator</string>
   <!-- Describes the purpose of the button to begin or continue running a timer -->
-  <string name="timer_start">Start</string>
+  <string name="timer_start">Începeți</string>
   <!-- Describes the purpose of the button to delete a timer. -->
   <string name="timer_delete">Ștergeţi</string>
   <!-- Describes the purpose of the button increase the remaining time on a timer by one minute. -->
@@ -396,7 +396,7 @@
     <item quantity="one">1 minut</item>
     <item quantity="few"><xliff:g id="NUMBER">%d</xliff:g> (de) temporizatoare</item>
     <!-- more -->
-    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> timers</item>
+    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> minute</item>
   </plurals>
   <!-- Title with the clock on the main page displaying the user's regular timezone (shows when automatic_home_clock enabled) -->
   <string name="home_label">Acasă</string>
@@ -576,9 +576,9 @@
   <plurals name="alarm_delete_confirmation">
     <!-- Confirmation for one alarm -->
     <item quantity="one">Ștergeţi alarma selectată?</item>
-    <item quantity="few">Ștergeţi alarmele selectate?</item>
+    <item quantity="few">Ștergeți alarma selectată?</item>
     <!-- Confirmation more than one alarm  -->
-    <item quantity="other">Delete selected alarms?</item>
+    <item quantity="other">Ștergeți alarma selectată?</item>
   </plurals>
   <!-- Timer deletion confirmation -->
   <string name="timer_delete_confirmation">Ștergeţi acest contor?</string>

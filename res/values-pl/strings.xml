@@ -15,6 +15,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- -->
   <!-- Label shown on launcher icon -->
   <!-- Label for the this application displayed on-screen when this application must be represented to the user. -->
   <string name="app_label">Zegar</string>
@@ -42,7 +43,7 @@
   <!-- Setting label on Set alarm screen: Label -->
   <string name="label">Etykieta</string>
   <!-- Default label to display for an alarm -->
-  <string name="default_label">Alarm</string>
+  <string name="default_label">Budzik</string>
   <!-- Preference category on Alarm Settings screen: Set alarm -->
   <!-- Also label for the old Alarms dialog activity displayed on-screen when that activity must be represented to the user. -->
   <string name="set_alarm">Ustaw alarm</string>
@@ -91,7 +92,7 @@
     <item quantity="one">1 min</item>
     <item quantity="few"><xliff:g id="number" example="7">%d</xliff:g> min</item>
     <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> min</item>
+    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g>min</item>
   </plurals>
   <!-- The text shown after user dismissed an alerting alarm [CHAR LIMIT=15] -->
   <string name="alarm_alert_off_text">Alarm wyłączony</string>
@@ -121,6 +122,7 @@
          6:      hours minutes
          7: days hours minutes
     -->
+  <skip></skip>
   <!-- Timer notification: how long from now until timer goes off. -->
   <string-array name="timer_notifications">
     <item>Jeszcze niecała minuta</item>
@@ -240,6 +242,7 @@
   <!-- Title of the ringtone setting. -->
   <string name="default_ringtone_setting_title">Ustaw dzwonek domyślny</string>
   <!-- Accessibility labels for Clock activity buttons -->
+  <skip></skip>
   <string name="alarm_button_description">Alarmy</string>
   <string name="gallery_button_description">Galeria</string>
   <string name="music_button_description">Muzyka</string>
@@ -269,7 +272,7 @@
   <!-- Label on the main screen control used to set alarm when there is already an existing alarm [CHAR LIMIT=30]-->
   <!--  ActionBar strings -->
   <!-- Describes the purpose of the tab button which which switches the activity to the Alarm page -->
-  <string name="menu_alarm">Alarm</string>
+  <string name="menu_alarm">Budzik</string>
   <!-- Describes the purpose of the tab button which which switches the activity to the Timer page -->
   <string name="menu_timer">Minutnik</string>
   <!-- Describes the purpose of the tab button which which switches the activity to the Clock page -->

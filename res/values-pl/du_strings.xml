@@ -38,13 +38,13 @@
   <string name="media_start">Odtwórz audio</string>
   <string name="alarm_alert_prealarm_dismiss_title">Wstępny alarm odwołany</string>
   <string name="prealarm_time_select">Czas wstępnego alarmu:</string>
-  <string name="alarm_title">Alarm</string>
+  <string name="alarm_title">Budzik</string>
   <string name="prealarm_title">Wstępny alarm</string>
   <string name="alarm_volume_enable_title">Systemowa głośność alarmu</string>
   <string name="alarm_test_dialog_title">Odtwórz alarm</string>
   <string name="alarm_test_dialog_content">Naciśnij przycisk Anuluj, aby zatrzymać</string>
   <string name="alarm_test">Odtwórz alarm</string>
-  <string name="alarmType">Alarm</string>
+  <string name="alarmType">Budzik</string>
   <string name="ringtoneType">Dzwonek</string>
   <string name="notificationType">Powiadomienie</string>
   <string name="mediaType">Plik muzyczny</string>

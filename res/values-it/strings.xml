@@ -15,6 +15,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- -->
   <!-- Label shown on launcher icon -->
   <!-- Label for the this application displayed on-screen when this application must be represented to the user. -->
   <string name="app_label">Orologio</string>
@@ -119,6 +120,7 @@
          6:      hours minutes
          7: days hours minutes
     -->
+  <skip></skip>
   <!-- Timer notification: how long from now until timer goes off. -->
   <string-array name="timer_notifications">
     <item>Resta meno di un minuto</item>
@@ -236,6 +238,7 @@
   <!-- Title of the ringtone setting. -->
   <string name="default_ringtone_setting_title">Imposta suoneria predefinita</string>
   <!-- Accessibility labels for Clock activity buttons -->
+  <skip></skip>
   <string name="alarm_button_description">Sveglie</string>
   <string name="gallery_button_description">Galleria</string>
   <string name="music_button_description">Musica</string>
@@ -312,7 +315,7 @@
   <!-- Abbreviation for temporal minutes [CHAR LIMIT=1] -->
   <string name="minutes_label">m</string>
   <!-- Abbreviation for temporal seconds [CHAR LIMIT=1] -->
-  <string name="seconds_label">s</string>
+  <string name="seconds_label">c</string>
   <!-- Accessibility strings -->
   <string name="hours_label_description">ore</string>
   <string name="minutes_label_description">minuti</string>
@@ -425,7 +428,7 @@
   <!-- add 00 as minutes to the time when pressing this button -->
   <string name="time_picker_00_label">:00</string>
   <!-- add 30 as minutes to the time when pressing this button -->
-  <string name="time_picker_30_label">:30</string>
+  <string name="time_picker_30_label">c</string>
   <!-- Choices for timezones, must be kept in sync with timezone_values. CHAR LIMIT=25] -->
   <string-array name="timezone_labels">
     <item>"Isole Marshall"</item>
@@ -436,7 +439,7 @@
     <item>"Tijuana"</item>
     <item>"Arizona"</item>
     <item>"Chihuahua"</item>
-    <item>"Mountain Time"</item>
+    <item>"Tempo in montagna"</item>
     <item>"America centrale"</item>
     <item>"Fuso orario centrale - USA"</item>
     <item>"Città del Messico"</item>

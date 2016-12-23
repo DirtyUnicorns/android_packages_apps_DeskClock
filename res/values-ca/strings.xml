@@ -15,6 +15,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- -->
   <!-- Label shown on launcher icon -->
   <!-- Label for the this application displayed on-screen when this application must be represented to the user. -->
   <string name="app_label">Rellotge</string>
@@ -90,7 +91,7 @@
     <!-- Duration for one minute -->
     <item quantity="one">1 min</item>
     <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> min</item>
+    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> mins</item>
   </plurals>
   <!-- The text shown after user dismissed an alerting alarm [CHAR LIMIT=15] -->
   <string name="alarm_alert_off_text">Alarma apagada</string>
@@ -119,6 +120,7 @@
          6:      hours minutes
          7: days hours minutes
     -->
+  <skip></skip>
   <!-- Timer notification: how long from now until timer goes off. -->
   <string-array name="timer_notifications">
     <item>Queda menys d\'un minut</item>
@@ -236,11 +238,12 @@
   <!-- Title of the ringtone setting. -->
   <string name="default_ringtone_setting_title">Estableix el to predeterminat</string>
   <!-- Accessibility labels for Clock activity buttons -->
+  <skip></skip>
   <string name="alarm_button_description">Alarmes</string>
   <string name="gallery_button_description">Galeria</string>
   <string name="music_button_description">Música</string>
-  <string name="nightmode_button_description">Dim</string>
-  <string name="home_button_description">Launcher</string>
+  <string name="nightmode_button_description">Atenua</string>
+  <string name="home_button_description">Llançador</string>
   <string name="desk_clock_button_description">Visualització del rellotge</string>
   <!-- Accessibility labels for alarm buttons -->
   <string name="label_description">Nom</string>
@@ -299,7 +302,7 @@
   <!-- Describes the purpose of the button to stop a stopwatch. -->
   <string name="sw_stop_button">Atura</string>
   <!-- Describes the purpose of the button to pause a stopwatch. -->
-  <string name="sw_pause_button">Pause</string>
+  <string name="sw_pause_button">Pausa</string>
   <!-- Describes the purpose of the button to record current the stopwatch value into the4 collection of lap times. -->
   <string name="sw_lap_button">Volta</string>
   <!-- Describes the purpose of the button to return the stopwatch to zero and remove the lap times. -->
@@ -478,12 +481,12 @@
     <item>"Nairobi"</item>
     <item>"Teheran"</item>
     <item>"Bakú"</item>
-    <item>"Tbilisi"</item>
+    <item>"Tbilissi"</item>
     <item>"Erevan"</item>
     <item>"Dubai"</item>
     <item>"Kabul"</item>
     <item>"Islamabad, Karachi"</item>
-    <item>"Ural'sk"</item>
+    <item>"Oral"</item>
     <item>"Ekaterinburg"</item>
     <item>"Calcuta"</item>
     <item>"Sri Lanka"</item>
@@ -501,7 +504,7 @@
     <item>"Seül"</item>
     <item>"Tòquio, Osaka"</item>
     <item>"Jakutsk"</item>
-    <item>"Adelaide"</item>
+    <item>"Adelaida"</item>
     <item>"Darwin"</item>
     <item>"Brisbane"</item>
     <item>"Hobart"</item>

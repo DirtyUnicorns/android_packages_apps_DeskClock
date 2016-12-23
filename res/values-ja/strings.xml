@@ -15,6 +15,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- -->
   <!-- Label shown on launcher icon -->
   <!-- Label for the this application displayed on-screen when this application must be represented to the user. -->
   <string name="app_label">時計</string>
@@ -117,6 +118,7 @@
          6:      hours minutes
          7: days hours minutes
     -->
+  <skip></skip>
   <!-- Timer notification: how long from now until timer goes off. -->
   <string-array name="timer_notifications">
     <item>残り1分未満</item>
@@ -232,6 +234,7 @@
   <!-- Title of the ringtone setting. -->
   <string name="default_ringtone_setting_title">デフォルトの着信音を設定</string>
   <!-- Accessibility labels for Clock activity buttons -->
+  <skip></skip>
   <string name="alarm_button_description">アラーム</string>
   <string name="gallery_button_description">ギャラリー</string>
   <string name="music_button_description">音楽</string>

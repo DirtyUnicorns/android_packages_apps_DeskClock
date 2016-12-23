@@ -15,6 +15,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- -->
   <!-- Label shown on launcher icon -->
   <!-- Label for the this application displayed on-screen when this application must be represented to the user. -->
   <string name="app_label">Uhr</string>
@@ -119,6 +120,7 @@
          6:      hours minutes
          7: days hours minutes
     -->
+  <skip></skip>
   <!-- Timer notification: how long from now until timer goes off. -->
   <string-array name="timer_notifications">
     <item>Nur noch weniger als eine Minute</item>
@@ -236,6 +238,7 @@
   <!-- Title of the ringtone setting. -->
   <string name="default_ringtone_setting_title">Standard-Klingelton einstellen</string>
   <!-- Accessibility labels for Clock activity buttons -->
+  <skip></skip>
   <string name="alarm_button_description">Wecker</string>
   <string name="gallery_button_description">Galerie</string>
   <string name="music_button_description">Musik</string>
@@ -418,7 +421,7 @@
   <!-- Textual content of the button to discard the current dialog values and close the dialog -->
   <string name="time_picker_cancel">Abbrechen</string>
   <!-- Textual content of the button to update an alarm with the current dialog values -->
-  <string name="time_picker_set">OK</string>
+  <string name="time_picker_set">Ok</string>
   <string name="time_picker_time_seperator">:</string>
   <!--  place holder for am/pm label when it is not set -->
   <string name="time_picker_ampm_label">--</string>

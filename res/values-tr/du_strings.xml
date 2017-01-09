@@ -37,7 +37,7 @@
   <string name="ringtone_disabled">Devre dışı</string>
   <string name="media_start">Ses gönderme başlat</string>
   <string name="alarm_alert_prealarm_dismiss_title">Ön alarm reddedildi</string>
-  <string name="prealarm_time_select">Ön alarm Saat:</string>
+  <string name="prealarm_time_select">Alarm öncesi zamanı:</string>
   <string name="alarm_title">Alarm</string>
   <string name="prealarm_title">Ön alarm</string>
   <string name="alarm_volume_enable_title">Sistem alarm sesi</string>
@@ -59,7 +59,7 @@
   <string name="random_mode_enable_title">Karıştır</string>
   <string name="volume_increase_speed_title">Ses artış aralığı</string>
   <string name="entry_five_secs">5 saniye</string>
-  <string name="entry_ten_secs">10 Saniye</string>
+  <string name="entry_ten_secs">10 saniye</string>
   <string name="entry_fifteen_secs">15 saniye</string>
   <string name="entry_thirty_secs">30 saniye</string>
   <string name="pre_alarm_dismiss_all_summary">Ön alarmı kapatmak asıl alarmı da kapatır</string>

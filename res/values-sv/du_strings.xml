@@ -51,7 +51,7 @@
   <string name="folderType">Musikmapp</string>
   <string name="playlistType">Spellista</string>
   <string name="alarm_type_select_title">Källa:</string>
-  <string name="alarm_test_button">Test</string>
+  <string name="alarm_test_button">Testa</string>
   <string name="keep_screen_on_title">Håll skärmen på</string>
   <string name="keep_screen_on_summary">Skärmen kommer inte att stängas av när alarmet är aktivt</string>
   <string name="folder_dialog_title">Välj mapp</string>

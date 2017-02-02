@@ -33,7 +33,7 @@
   <string name="entry_three_count">3 次</string>
   <string name="entry_five_count">5 次</string>
   <string name="entry_ten_count">10 次</string>
-  <string name="pick_media">选择音频</string>
+  <string name="pick_media">选择声音</string>
   <string name="ringtone_disabled">未启用</string>
   <string name="media_start">发送音频开始</string>
   <string name="alarm_alert_prealarm_dismiss_title">预闹钟已忽略</string>
@@ -76,7 +76,7 @@
   <string name="fullscreen_alarm_settings">全屏闹钟</string>
   <string name="fullscreen_alarm_title">全屏闹钟</string>
   <string name="fullscreen_alarm_summary">使用全屏闹钟取代浮动通知</string>
-  <string name="take_persistent_grant_uri_permission_failed_msg">获取此铃声的永久授权失败</string>
+  <string name="take_persistent_grant_uri_permission_failed_msg">获取此铃声的永久授权失败。</string>
   <string name="notification_settings">通知</string>
   <!-- User-defined cities -->
   <string name="menu_item_add">添加</string>

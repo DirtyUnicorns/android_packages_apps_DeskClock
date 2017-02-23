@@ -93,9 +93,7 @@
   <string name="cities_delete_city_title">Cancella località</string>
   <string name="cities_delete_city_msg">Vuoi eliminare <xliff:g id="city">%s</xliff:g>?</string>
   <string name="cities_delete_city_failed">Impossibile cancellare la località</string>
-  <string name="timer_settings">Conto alla rovescia</string>
   <string name="timer_alarm_title">Suoneria</string>
   <string name="timer_alarm_custom_title">Suoneria conto alla rovescia personalizzata</string>
-  <string name="week_start_title">La settimana inizia da</string>
   <string name="default_week_start">Predefinita del sistema</string>
 </resources>

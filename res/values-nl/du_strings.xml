@@ -93,9 +93,7 @@
   <string name="cities_delete_city_title">Stad verwijderen</string>
   <string name="cities_delete_city_msg">Wilt u <xliff:g id="city">%s</xliff:g> verwijderen?</string>
   <string name="cities_delete_city_failed">Kan de stad niet verwijderen</string>
-  <string name="timer_settings">Timer</string>
   <string name="timer_alarm_title">Beltoon</string>
   <string name="timer_alarm_custom_title">Aangepaste timer ringtone</string>
-  <string name="week_start_title">Week begint op</string>
   <string name="default_week_start">Standaard</string>
 </resources>

@@ -93,9 +93,7 @@
   <string name="cities_delete_city_title">Város törlése</string>
   <string name="cities_delete_city_msg">Biztosan törli a következőt: <xliff:g id="city">%s</xliff:g>?</string>
   <string name="cities_delete_city_failed">Nem lehet törölni a várost</string>
-  <string name="timer_settings">Időzítő</string>
   <string name="timer_alarm_title">Csengőhang</string>
   <string name="timer_alarm_custom_title">Egyéni időzítő csengőhang</string>
-  <string name="week_start_title">A hét kezdőnapja</string>
   <string name="default_week_start">Helyi alapértelmezett</string>
 </resources>

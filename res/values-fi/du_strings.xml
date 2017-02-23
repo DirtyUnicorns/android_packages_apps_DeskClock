@@ -93,9 +93,7 @@
   <string name="cities_delete_city_title">Poista kaupunki</string>
   <string name="cities_delete_city_msg">Haluatko varmasti poistaa kaupungin <xliff:g id="city">%s</xliff:g>?</string>
   <string name="cities_delete_city_failed">Ei voida poistaa kaupunkia</string>
-  <string name="timer_settings">Ajastin</string>
   <string name="timer_alarm_title">Soittoääni</string>
   <string name="timer_alarm_custom_title">Mukautettu ajastimen soittoääni</string>
-  <string name="week_start_title">Viikon alkamispäivä</string>
   <string name="default_week_start">Oletus sijainti</string>
 </resources>

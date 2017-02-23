@@ -93,9 +93,7 @@
   <string name="cities_delete_city_title">都市を削除</string>
   <string name="cities_delete_city_msg"><xliff:g id="city">%s</xliff:g>を削除しますか？</string>
   <string name="cities_delete_city_failed">都市を削除できません</string>
-  <string name="timer_settings">タイマー</string>
   <string name="timer_alarm_title">着信音</string>
   <string name="timer_alarm_custom_title">任意のタイマー音</string>
-  <string name="week_start_title">週の開始日</string>
   <string name="default_week_start">ロケールのデフォルト</string>
 </resources>

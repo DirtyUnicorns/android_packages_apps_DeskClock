@@ -93,9 +93,7 @@
   <string name="cities_delete_city_title">Elimina la ciutat</string>
   <string name="cities_delete_city_msg">Vols esborrar <xliff:g id="city">%s</xliff:g>?</string>
   <string name="cities_delete_city_failed">No s\'ha pogut eliminar la ciutat</string>
-  <string name="timer_settings">Temporitzador</string>
   <string name="timer_alarm_title">To</string>
   <string name="timer_alarm_custom_title">To d\'alarma personalitzat</string>
-  <string name="week_start_title">La setmana comença el</string>
   <string name="default_week_start">Configuració regional</string>
 </resources>

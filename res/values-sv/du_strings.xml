@@ -93,9 +93,7 @@
   <string name="cities_delete_city_title">Ta bort stad</string>
   <string name="cities_delete_city_msg">Vill du ta bort <xliff:g id="city">%s </xliff:g>?</string>
   <string name="cities_delete_city_failed">Kan inte ta bort staden</string>
-  <string name="timer_settings">Timer</string>
   <string name="timer_alarm_title">Ringsignal</string>
   <string name="timer_alarm_custom_title">Anpassad timersignal</string>
-  <string name="week_start_title">Veckan börjar på</string>
   <string name="default_week_start">Lokal standard</string>
 </resources>

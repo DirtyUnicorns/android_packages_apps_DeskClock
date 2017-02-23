@@ -93,9 +93,7 @@
   <string name="cities_delete_city_title">Borrar la ciudad</string>
   <string name="cities_delete_city_msg">¿Quieres borrar <xliff:g id="city">%s</xliff:g>?</string>
   <string name="cities_delete_city_failed">No se pudo borrar la ciudad</string>
-  <string name="timer_settings">Temporizador</string>
   <string name="timer_alarm_title">Tono de timbre</string>
   <string name="timer_alarm_custom_title">Tono de alarma personalizado</string>
-  <string name="week_start_title">La semana empieza el</string>
   <string name="default_week_start">Predeterminado de la zona</string>
 </resources>

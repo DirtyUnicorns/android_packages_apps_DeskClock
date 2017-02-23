@@ -93,9 +93,7 @@
   <string name="cities_delete_city_title">删除城市</string>
   <string name="cities_delete_city_msg">您确定要删除 <xliff:g id="city">%s</xliff:g>？</string>
   <string name="cities_delete_city_failed">不能删除该城市</string>
-  <string name="timer_settings">计时器</string>
   <string name="timer_alarm_title">铃声</string>
   <string name="timer_alarm_custom_title">自定义定时器铃声</string>
-  <string name="week_start_title">一周起始日</string>
   <string name="default_week_start">使用所在地区的默认值</string>
 </resources>

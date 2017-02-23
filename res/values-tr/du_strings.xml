@@ -93,9 +93,7 @@
   <string name="cities_delete_city_title">Şehri sil</string>
   <string name="cities_delete_city_msg"><xliff:g id="city">%s</xliff:g> silinsin mi?</string>
   <string name="cities_delete_city_failed">Şehir silinemiyor</string>
-  <string name="timer_settings">Zamanlayıcı</string>
   <string name="timer_alarm_title">Zil sesi</string>
   <string name="timer_alarm_custom_title">Özel Zamanlayıcı zilsesi</string>
-  <string name="week_start_title">Haftanın ilk günü</string>
   <string name="default_week_start">Varsayılan yerel ayar</string>
 </resources>

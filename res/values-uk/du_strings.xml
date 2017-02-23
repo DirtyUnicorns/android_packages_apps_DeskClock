@@ -93,9 +93,7 @@
   <string name="cities_delete_city_title">Видалити місто</string>
   <string name="cities_delete_city_msg">Ви дійсно бажаєте видалити <xliff:g id="city">%s</xliff:g>?</string>
   <string name="cities_delete_city_failed">Неможливо видалити місто</string>
-  <string name="timer_settings">Таймер</string>
   <string name="timer_alarm_title">Дзвінок</string>
   <string name="timer_alarm_custom_title">Користувальницький таймер рингтону</string>
-  <string name="week_start_title">Початок тижня</string>
   <string name="default_week_start">За замовчуванням</string>
 </resources>

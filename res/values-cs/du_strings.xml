@@ -93,9 +93,7 @@
   <string name="cities_delete_city_title">Smazat město</string>
   <string name="cities_delete_city_msg">Chcete smazat město „<xliff:g id="city">%s</xliff:g>“?</string>
   <string name="cities_delete_city_failed">Město nelze smazat</string>
-  <string name="timer_settings">Časovač</string>
   <string name="timer_alarm_title">Vyzváněcí tón</string>
   <string name="timer_alarm_custom_title">Vlastní časovač vyzvánění</string>
-  <string name="week_start_title">Začátek týdne</string>
   <string name="default_week_start">Místní nastavení</string>
 </resources>

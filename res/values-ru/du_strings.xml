@@ -93,10 +93,9 @@
   <string name="cities_delete_city_title">Удалить город</string>
   <string name="cities_delete_city_msg">Вы действительно хотите удалить <xliff:g id="city">%s</xliff:g>?</string>
   <string name="cities_delete_city_failed">Не удаётся удалить город</string>
-    <string name="timer_settings">Таймеры</string>
+  <string name="timer_settings">Таймеры</string>
   <string name="timer_alarm_title">Мелодия</string>
   <string name="timer_alarm_custom_title">Пользовательские мелодии</string>
-    <string name="timer_alarm_custom_summary" translatable="false"></string>
-    <string name="week_start_title">Начало недели</string>
+  <string name="week_start_title">Начало недели</string>
   <string name="default_week_start">Местное, по умолчанию</string>
 </resources>

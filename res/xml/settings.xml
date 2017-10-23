@@ -14,7 +14,9 @@
 -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/settings">
-    <PreferenceCategory android:title="@string/global_settings">
+    <PreferenceCategory
+        android:title="@string/global_settings"
+        android:key="global_settings">
         <ListPreference
             android:defaultValue="0"
             android:dialogTitle="@string/color_theme_title"

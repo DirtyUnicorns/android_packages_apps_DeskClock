@@ -99,6 +99,8 @@ public class SettingsActivity extends PreferenceActivity
             "week_start";
     public static final String KEY_FULLSCREEN_ALARM_SETTINGS =
             "fullscreen_alarm_settings";
+    public static final String KEY_GLOBAL_SETTINGS =
+            "global_settings";
     private static final String KEY_ALARM_ACTION_WIRELESS_HEADER =
             "alarm_action_wireless_header";
     private static final String KEY_ALARM_ACTION_CATEGORY = "alarm_action_category";
@@ -307,6 +309,8 @@ public class SettingsActivity extends PreferenceActivity
         final boolean hasOrientationSensor = sensorManager.getSensorList(Sensor.TYPE_ORIENTATION).size() >= 1;
         final PreferenceCategory alarmCategory = (PreferenceCategory) findPreference(
                         KEY_FULLSCREEN_ALARM_SETTINGS);
+        final PreferenceCategory globalCategory = (PreferenceCategory) findPreference(
+                        KEY_GLOBAL_SETTINGS);
 
         listPref = (ListPreference) findPreference(KEY_FLIP_ACTION);
         if (hasOrientationSensor) {
@@ -355,9 +359,8 @@ public class SettingsActivity extends PreferenceActivity
         listPref.setSummary(listPref.getEntry());
         listPref.setOnPreferenceChangeListener(this);
 
-        listPref = (ListPreference) findPreference(KEY_COLOR_THEME);
-        listPref.setSummary(listPref.getEntry());
-        listPref.setOnPreferenceChangeListener(this);
+        ListPreference colorPref = (ListPreference) findPreference(KEY_COLOR_THEME);
+        globalCategory.removePreference(colorPref);
 
         listPref = (ListPreference) findPreference(KEY_DEFAULT_PAGE);
         listPref.setSummary(listPref.getEntry());

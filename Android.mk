@@ -24,7 +24,7 @@ LOCAL_RESOURCE_DIR := $(addprefix $(LOCAL_PATH)/, $(res_dirs)) \
     $(support_library_root_dir)/v7/cardview/res
 LOCAL_ASSET_DIR := $(addprefix $(LOCAL_PATH)/, $(asset_dirs))
 
-LOCAL_PACKAGE_NAME := OmniClockOSS
+LOCAL_PACKAGE_NAME := DeskClock
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 

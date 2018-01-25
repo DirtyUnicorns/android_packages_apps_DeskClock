@@ -21,6 +21,7 @@
         android:targetSdkVersion="25" />
 
     <application
+        android:appCategory="productivity"
         android:icon="@mipmap/ic_launcher_alarmclock"
         android:label="@string/app_label_new"
         android:requiredForAllUsers="true"

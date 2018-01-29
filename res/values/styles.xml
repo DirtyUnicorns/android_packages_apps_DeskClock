@@ -22,7 +22,7 @@
         <item name="android:colorAccent">@color/primary</item>
         <item name="android:colorPrimary">@color/primary</item>
         <item name="android:colorPrimaryDark">@color/primary_dark</item>
-        <item name="android:navigationBarColor">@color/primary_dark</item>
+        <!--item name="android:navigationBarColor">@color/primary_dark</item-->
         <item name="android:colorControlActivated">@color/primary</item>
         <item name="android:windowBackground">@color/window_background</item>
         <item name="android:actionBarStyle">@style/ActionBarStyle</item>
@@ -36,7 +36,7 @@
         <item name="android:colorAccent">@color/primary</item>
         <item name="android:colorPrimary">@color/primary</item>
         <item name="android:colorPrimaryDark">@color/primary_dark</item>
-        <item name="android:navigationBarColor">@color/primary_dark</item>
+        <!--item name="android:navigationBarColor">@color/primary_dark</item-->
         <item name="android:colorControlActivated">@color/primary</item>
         <item name="android:windowBackground">@color/window_background_dark</item>
         <item name="android:actionBarStyle">@style/ActionBarStyle</item>
@@ -50,7 +50,7 @@
         <item name="android:colorAccent">@color/accent_black</item>
         <item name="android:colorPrimary">@color/primary_black</item>
         <item name="android:colorPrimaryDark">@color/primary_black</item>
-        <item name="android:navigationBarColor">@color/primary_black</item>
+        <!--item name="android:navigationBarColor">@color/primary_black</item-->
         <item name="android:colorControlActivated">@color/accent_black</item>
         <item name="android:windowBackground">@color/window_background_black</item>
         <item name="android:actionBarStyle">@style/ActionBarStyleBlack</item>

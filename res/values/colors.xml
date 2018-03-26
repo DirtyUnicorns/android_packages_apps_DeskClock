@@ -50,7 +50,7 @@
     <color name="material_grey_850">#ff303030</color>
     <color name="material_grey_900">#ff212121</color>
     <color name="view_background">@color/material_grey_100</color>
-    <color name="window_background">@color/material_grey_300</color>
+    <color name="window_background">@android:color/white</color>
     <color name="view_background_dark">@color/material_grey_800</color>
     <color name="window_background_dark">@color/material_grey_900</color>
     <color name="view_background_black">#000000</color>
@@ -71,4 +71,5 @@
     <color name="undo_color">#ffc107</color>
     <color name="secondary_primary">@color/primary</color>
     <color name="secondary_primary_black">@color/primary_black</color>
+    <color name="navigation_bar_color">@android:color/white</color>
 </resources>

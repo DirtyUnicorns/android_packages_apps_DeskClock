@@ -228,12 +228,12 @@ public class WidgetUtils {
         Paint circlePaint = new Paint();
         circlePaint.setAntiAlias(true);
         circlePaint.setStyle(Paint.Style.STROKE);
-        circlePaint.setColor(r.getColor(org.omnirom.deskclock.R.color.primary));
+        circlePaint.setColor(r.getColor(org.omnirom.deskclock.R.color.analog_clock_time_passed));
 
         Paint remaingCirclePaint = new Paint();
         remaingCirclePaint.setAntiAlias(true);
         remaingCirclePaint.setStyle(Paint.Style.STROKE);
-        remaingCirclePaint.setColor(r.getColor(org.omnirom.deskclock.R.color.accent));
+        remaingCirclePaint.setColor(r.getColor(org.omnirom.deskclock.R.color.analog_clock_time_remaining));
 
         Paint bgPaint = new Paint();
         bgPaint.setAntiAlias(true);
@@ -268,7 +268,7 @@ public class WidgetUtils {
         textPaint.setTextSize(textSizePixels);
         textPaint.setAntiAlias(true);
         textPaint.setSubpixelText(true);
-        textPaint.setColor(r.getColor(org.omnirom.deskclock.R.color.white));
+        textPaint.setColor(r.getColor(org.omnirom.deskclock.R.color.analog_clock_date_color));
         textPaint.setTextAlign(Paint.Align.CENTER);
 
         final int circleStrokeWidth = r.getDimensionPixelSize(org.omnirom.deskclock.R.dimen.widget_clock_circle_size);
@@ -314,7 +314,7 @@ public class WidgetUtils {
 
             Path path = new Path();
             RectF arcRectText = new RectF(arcRect);
-            arcRectText.inset(2 * textSizePixels, 2 * textSizePixels);
+            arcRectText.inset(4 * textSizePixels, 4 * textSizePixels);
             path.addArc(arcRectText, 180f, 180f);
             canvas.drawTextOnPath(currDate, path, 0, 0, textPaint);
         }
@@ -341,7 +341,7 @@ public class WidgetUtils {
 
                 Path path = new Path();
                 RectF arcRectText = new RectF(arcRect);
-                arcRectText.inset(textSizePixels, textSizePixels);
+                arcRectText.inset(3 * textSizePixels, 3 * textSizePixels);
                 path.addArc(arcRectText, 180f, -180f);
                 canvas.drawTextOnPath(alarmTimeString, path, 0, 0, textPaint);
             }

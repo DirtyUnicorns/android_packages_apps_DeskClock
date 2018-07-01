@@ -172,16 +172,15 @@
     <dimen name="world_clock_circle_size">2dip</dimen>
     <dimen name="main_clock_circle_size">6dip</dimen>
 
-    <dimen name="custom_analog_widget_size">100dip</dimen>
+    <dimen name="custom_analog_widget_size">80dip</dimen>
     <dimen name="min_analog_widget_resize_size">50dip</dimen>
-    <dimen name="widget_clock_hour_hand_width">4dip</dimen>
-    <dimen name="widget_clock_minute_hand_width">3dip</dimen>
-    <dimen name="widget_clock_hand_end_length">8dip</dimen>
-    <dimen name="widget_clock_circle_size">3dip</dimen>
+    <dimen name="widget_clock_hour_hand_width">2dip</dimen>
+    <dimen name="widget_clock_minute_hand_width">2dip</dimen>
+    <dimen name="widget_clock_hand_end_length">2dip</dimen>
+    <dimen name="widget_clock_circle_size">2dip</dimen>
 
-    <dimen name="analog_widget_font_size">10sp</dimen>
+    <dimen name="analog_widget_font_size">6sp</dimen>
     <dimen name="alarm_undo_bar_height">48dip</dimen>
     <dimen name="browse_item_height">48dip</dimen>
     <dimen name="browse_item_icon_size">36dip</dimen>
-
 </resources>

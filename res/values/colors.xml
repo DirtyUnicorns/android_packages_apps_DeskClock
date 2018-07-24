@@ -75,4 +75,5 @@
     <color name="secondary_primary">@color/primary</color>
     <color name="secondary_primary_black">@color/primary_black</color>
     <color name="navigation_bar_color">@android:color/white</color>
+    <color name="widget_analog_clock_bg_color">@*android:color/updater_snackbar_text_color</color>
 </resources>

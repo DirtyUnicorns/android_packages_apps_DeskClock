@@ -238,7 +238,7 @@ public class WidgetUtils {
         Paint bgPaint = new Paint();
         bgPaint.setAntiAlias(true);
         bgPaint.setStyle(Paint.Style.FILL);
-        bgPaint.setColor(r.getColor(org.omnirom.deskclock.R.color.analog_clock_bg_color));
+        bgPaint.setColor(r.getColor(org.omnirom.deskclock.R.color.widget_analog_clock_bg_color));
 
         Paint hourPaint = new Paint();
         hourPaint.setAntiAlias(true);

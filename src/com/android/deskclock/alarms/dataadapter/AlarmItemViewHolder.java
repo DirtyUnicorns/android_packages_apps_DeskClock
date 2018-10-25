@@ -83,9 +83,9 @@ public abstract class AlarmItemViewHolder extends ItemAdapter.ItemViewHolder<Ala
     @Override
     protected void onBindItemView(final AlarmItemHolder itemHolder) {
         final Alarm alarm = itemHolder.item;
-        bindOnOffSwitch(alarm);
-        bindClock(alarm);
         final Context context = itemView.getContext();
+        bindOnOffSwitch(alarm);
+        bindClock(alarm, context);
         itemView.setContentDescription(clock.getText() + " " + alarm.getLabelOrDefault(context));
     }
 
@@ -95,8 +95,11 @@ public abstract class AlarmItemViewHolder extends ItemAdapter.ItemViewHolder<Ala
         }
     }
 
-    protected void bindClock(Alarm alarm) {
+    protected void bindClock(Alarm alarm, Context context) {
         clock.setTime(alarm.hour, alarm.minutes);
+        clock.setTextColor(alarm.enabled ? context.getResources().getColor(
+                   R.color.alarm_enable_text_color) : context.getResources().getColor(
+                   R.color.alarm_disable_text_color));
         clock.setAlpha(alarm.enabled ? CLOCK_ENABLED_ALPHA : CLOCK_DISABLED_ALPHA);
     }
 

@@ -24,9 +24,16 @@
     android:paddingBottom="@dimen/fab_height"
     android:paddingTop="@dimen/timer_setup_top_margin">
 
-    <include layout="@layout/timer_setup_time" />
+    <include layout="@layout/timer_setup_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"/>
 
-    <include layout="@layout/timer_setup_divider" />
+    <include layout="@layout/timer_setup_divider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="5dp"/>
 
     <include
         layout="@layout/timer_setup_digits"

@@ -105,17 +105,14 @@ public class TimerSetupView extends LinearLayout implements View.OnClickListener
                 (TextView) findViewById(R.id.timer_setup_digit_9),
         };
 
-        // Tint the divider to match the disabled control color by default and used the activated
-        // control color when there is valid input.
-        final Context dividerContext = mDividerView.getContext();
-        final int colorControlActivated = ThemeUtils.resolveColor(dividerContext,
-                R.attr.colorControlActivated);
-        final int colorControlDisabled = ThemeUtils.resolveColor(dividerContext,
-                R.attr.colorControlNormal, new int[] { ~android.R.attr.state_enabled });
-        ViewCompat.setBackgroundTintList(mDividerView, new ColorStateList(
+        final Context c = mTimeView.getContext();
+        final int colorControlActivated = ThemeUtils.resolveColor(c, R.attr.colorControlActivated);
+        final int colorControlDisabled = ThemeUtils.resolveColor(c, R.attr.colorControlNormal,
+                new int[] { ~android.R.attr.state_enabled });
+        final ColorStateList timeTextColor = new ColorStateList(
                 new int[][] { { android.R.attr.state_activated }, {} },
-                new int[] { colorControlActivated, colorControlDisabled }));
-        ViewCompat.setBackgroundTintMode(mDividerView, PorterDuff.Mode.SRC);
+                new int[] { colorControlActivated, colorControlDisabled });
+        mTimeView.setTextColor(timeTextColor);
 
         // Initialize the digit buttons.
         final UiDataModel uidm = UiDataModel.getUiDataModel();
@@ -129,7 +126,7 @@ public class TimerSetupView extends LinearLayout implements View.OnClickListener
         mDeleteView.setOnLongClickListener(this);
 
         updateTime();
-        updateDeleteAndDivider();
+        updateDeleteAndPad();
     }
 
     public void setFabContainer(FabContainer fabContainer) {
@@ -219,10 +216,10 @@ public class TimerSetupView extends LinearLayout implements View.OnClickListener
                 r.getQuantityString(R.plurals.seconds, seconds, seconds)));
     }
 
-    private void updateDeleteAndDivider() {
+    private void updateDeleteAndPad() {
         final boolean enabled = hasValidInput();
         mDeleteView.setEnabled(enabled);
-        mDividerView.setActivated(enabled);
+        mTimeView.setActivated(enabled);
     }
 
     private void updateFab() {
@@ -258,7 +255,7 @@ public class TimerSetupView extends LinearLayout implements View.OnClickListener
         // Update the fab, delete, and divider when we have valid input.
         if (mInputPointer == 0) {
             updateFab();
-            updateDeleteAndDivider();
+            updateDeleteAndPad();
         }
     }
 
@@ -285,7 +282,7 @@ public class TimerSetupView extends LinearLayout implements View.OnClickListener
         // Update the fab, delete, and divider when we no longer have valid input.
         if (mInputPointer == -1) {
             updateFab();
-            updateDeleteAndDivider();
+            updateDeleteAndPad();
         }
     }
 
@@ -294,7 +291,7 @@ public class TimerSetupView extends LinearLayout implements View.OnClickListener
             Arrays.fill(mInput, 0);
             mInputPointer = -1;
             updateTime();
-            updateDeleteAndDivider();
+            updateDeleteAndPad();
         }
     }
 
@@ -331,7 +328,7 @@ public class TimerSetupView extends LinearLayout implements View.OnClickListener
                 }
             }
             updateTime();
-            updateDeleteAndDivider();
+            updateDeleteAndPad();
         }
     }
 }
